@@ -27,13 +27,20 @@
 
   <!-- Scriptul JavaScript de i18n -->
   <script src="js/i18n.js"></script>
-  <script>
-    // La încărcarea paginii, încercăm să vedem dacă utilizatorul are deja o limbă salvată
-    document.addEventListener("DOMContentLoaded", () => {
-      const savedLang = localStorage.getItem('language') || 'ro'; // default 'ro'
+<script>
+  // La încărcare, citește parametru din URL și setează limba
+  document.addEventListener("DOMContentLoaded", () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const paramLang = urlParams.get('lang');   // "ro", "en", etc.
+    if (paramLang) {
+      setLanguage(paramLang);
+    } else {
+      // Dacă nu e parametru, folosește, de ex., localStorage sau default
+      const savedLang = localStorage.getItem('language') || 'ro';
       setLanguage(savedLang);
-    });
-  </script>
+    }
+  });
+</script>
 <script src="js/include-header.js"></script>
 	
 
