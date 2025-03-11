@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta charset="UTF-8" />
+  <title>Site multilingv</title>
   <link rel="stylesheet" href="style.css">
-
-    <nav>
-    	<a href="?lang=ro">Română</a>
-    	<a href="?lang=en">English</a>
-    </nav>
-
-  <title>Instrucțiuni de instalare</title>
 </head>
 <body>
-  <h1>Instrucțiuni de Instalare</h1>
-  <p>Aici poți scrie instrucțiunile tale în limba română...</p>
+  <header>
+    <h1 data-i18n="headerTitle">Acesta este header-ul (fallback)</h1>
+    <nav class="language-nav">
+      <ul>
+        <!-- Butoane de schimbare a limbii -->
+        <li><a href="#" onclick="setLanguage('ro')">Română</a></li>
+        <li><a href="#" onclick="setLanguage('en')">Engleză</a></li>
+        <li><a href="#" onclick="setLanguage('bg')">Bulgăre</a></li>
+        <li><a href="#" onclick="setLanguage('hu')">Maghiară</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  h2>Cerințe de sistem</h2>
-  <ul>
-  	<li>Windows 10 / Linux / macOS</li>
-  	<li>Minimum 4GB RAM</li>
-  	<li>Conexiune la internet</li>
-  </ul>
+  <hr />
 
-<h2>Pași de instalare</h2>
-<ol>
-  <li>Descarcă arhiva de pe site-ul oficial.</li>
-  <li>Dezarhivează conținutul într-un folder local.</li>
-  <li>Rulează fișierul <strong>install.exe</strong>.</li>
-</ol>
+  <main>
+    <h2 data-i18n="mainText">Bine ai venit pe site! (fallback)</h2>
 
-<p>Dacă întâmpini probleme, consultă secțiunea de depanare de mai jos...</p>
+    <a href="#" class="image-box">
+      <img src="windows-banner.jpg" alt="Poza 1">
+      <span data-i18n="pictureOne">O poză cât tot chenarul (fallback)</span>
+    </a>
+
+    <a href="#" class="image-box">
+      <img src="Office-banner.jpg" alt="Poza 2">
+      <span data-i18n="pictureTwo">A doua poză (fallback)</span>
+    </a>
+  </main>
+
+  <!-- Scriptul JavaScript de i18n -->
+  <script src="js/i18n.js"></script>
+  <script>
+    // La încărcarea paginii, încercăm să vedem dacă utilizatorul are deja o limbă salvată
+    document.addEventListener("DOMContentLoaded", () => {
+      const savedLang = localStorage.getItem('language') || 'ro'; // default 'ro'
+      setLanguage(savedLang);
+    });
+  </script>
+
+	
 
 </body>
 </html>
-
+9:47 PM 3/11/2025

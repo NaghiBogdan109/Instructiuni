@@ -1,18 +1,105 @@
-body {
+/* Reset minim */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: auto; /* Ca să fie centrat textul */
+  color: #333;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  max-width: 900px; /* Lățimea maximă a paginii */
   padding: 20px;
 }
 
-h1 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* poți pune un background color dacă vrei:
+     background-color: #eee; 
+  */
 }
 
-p {
-  margin-bottom: 1em;
+/* Titlu principal */
+header h1 {
+  font-size: 2em;
+}
+
+/* Meniul de limbi (NAV) */
+.language-nav ul {
+  display: flex;
+  list-style: none;   /* elimină bullet-urile */
+  gap: 20px;          /* spațiu orizontal între elemente */
+}
+
+.language-nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+/* Efect la hover pe linkurile de limbă */
+.language-nav a:hover {
+  color: #0056b3; /* o nuanță mai închisă de albastru */
+}
+
+/* Linie orizontală de sub header (hr) */
+hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  flex-direction: column; /* Elementele (imaginile) vor fi afișate pe verticală */
+  gap: 20px; /* Spațiu între elemente */
+}
+
+/* Titlul de la interiorul paginii */
+main h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+/* Card/link (div) pentru imagine + text */
+.image-box {
+  display: block;
+  background-color: white;  
+  border: 2px solid #ccc;   
+  border-radius: 6px;       
+  text-decoration: none;    
+  color: inherit;           
+  overflow: hidden;         
+  transition: transform 0.2s ease;
+}
+
+/* Efect la hover pentru card */
+.image-box:hover {
+  transform: scale(1.01);
+  border-color: #007bff;
+}
+
+/* Imaginea din interiorul cardului */
+.image-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Textul din interiorul cardului */
+.image-box span {
+  display: block;
+  padding: 15px;
+  font-size: 1em;
+  text-align: center;
 }
