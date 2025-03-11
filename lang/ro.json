@@ -1,7 +1,6 @@
 {
-  "headerTitle": "Acesta este header-ul",
-  "mainText": "Bine ai venit pe site! Aici vei găsi...",
-  "pictureOne": "O poză cât tot chenarul care duce la un alt link de pe site",
-  "pictureTwo": "A doua poză care duce la un alt link de pe site"
+  "headerTitle": "This is the header",
+  "mainText": "Welcome to the website! Here you will find...",
+  "pictureOne": "A full-width picture linking to another page on the site",
+  "pictureTwo": "A second picture linking to another page on the site"
 }
-
