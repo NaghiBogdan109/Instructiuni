@@ -8,5 +8,12 @@
     </ul>
   </nav>
 </header>
-
+    <script src="js/i18n.js"></script>
+  <script>
+    // La încărcarea paginii, încercăm să vedem dacă utilizatorul are deja o limbă salvată
+    document.addEventListener("DOMContentLoaded", () => {
+      const savedLang = localStorage.getItem('language') || 'ro'; // default 'ro'
+      setLanguage(savedLang);
+    });
+  </script>
 
