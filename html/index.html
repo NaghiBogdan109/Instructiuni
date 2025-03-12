@@ -31,7 +31,7 @@
   // La încărcare, citește parametru din URL și setează limba
   document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const paramLang = urlParams.get('../lang');   // "ro", "en", etc.
+    const paramLang = urlParams.get('lang');   // "ro", "en", etc.
     if (paramLang) {
       setLanguage(paramLang);
     } else {
