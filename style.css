@@ -104,21 +104,5 @@ main h2 {
   text-align: center;
 }
 
-.overlay-text {
-  position: absolute;
-  top: 50%;               /* La jumătatea containerului */
-  left: 50%;              /* Mijloc pe orizontală */
-  transform: translate(-50%, -50%);  
-  color: #fff;
-  font-size: 3em;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  text-align: center;     /* util dacă textul are mai multe linii */
-  /* Dacă vrei fundal semitransparent, îl poți activa:
-     background-color: rgba(0,0,0,0.4);
-     padding: 10px;
-     border-radius: 6px;
-  */
-}
 
 
