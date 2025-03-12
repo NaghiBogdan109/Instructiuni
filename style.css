@@ -105,28 +105,34 @@ main h2 {
 }
 
 .image-container {
-  position: relative;      /* Permite elementelor copil cu position:absolute să se așeze relativ la acest container */
-  display: inline-block;   /* Poți folosi și block, dacă vrei imaginea pe toată lățimea */
-  max-width: 800px;        /* Exemplu de limitare a lățimii containerului */
+  position: relative;      /* Permite .text-overlay să se poziționeze absolut */
+  display: inline-block;   /* Sau block, după preferință */
+  text-decoration: none;   /* Ca să nu apară subliniere de link */
+  color: inherit;          /* Să moștenească culoarea textului */
 }
 
 .image-container img {
-  width: 100%;             /* Imaginea se întinde pe toată lățimea containerului */
-  height: auto;            /* Păstrează proporțiile */
-  display: block;          /* Elimină spațiile nedorite */
+  display: block;
+  width: 100%;    /* Se adaptează la container */
+  height: auto;
 }
 
+/* Suprapunem textul peste imagine */
 .text-overlay {
-  position: absolute;      
-  top: 50%;                /* Așază textul la mijloc pe verticală */
-  left: 50%;               /* Așază textul la mijloc pe orizontală */
-  transform: translate(-50%, -50%); /* Centrează exact textul */
-  
-  /* Stilizare text */
-  color: #fff;               /* Poți alege ce culoare vrei */
-  font-size: 3em;            /* Mărime mare a textului */
-  font-weight: bold;         /* Text îngroșat */
-  text-align: center;        /* Text centrat dacă este pe mai multe linii */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Pentru lizibilitate mai bună */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Stil text */
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  text-align: center;
+  /* Opțional, mic fundal transparent pt. mai multă lizibilitate */
+  /* background-color: rgba(0, 0, 0, 0.3); 
+     padding: 10px; 
+     border-radius: 5px; */
 }
+
 
