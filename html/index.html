@@ -13,7 +13,7 @@
   <main>
     <h2 data-i18n="mainText">Bine ai venit pe site! (fallback)</h2>
 
-<a href="html/windows.html" class="image-box">
+<a href="../html/windows.html" class="image-box">
   <img src="../images/windows-banner.jpg" alt="Poza Windows">
   <span>A full-width picture linking to another page on the site</span>
 </a>
@@ -31,7 +31,7 @@
   // La încărcare, citește parametru din URL și setează limba
   document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const paramLang = urlParams.get('lang');   // "ro", "en", etc.
+    const paramLang = urlParams.get('../lang');   // "ro", "en", etc.
     if (paramLang) {
       setLanguage(paramLang);
     } else {
