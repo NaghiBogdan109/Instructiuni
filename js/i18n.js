@@ -3,7 +3,7 @@ function setLanguage(lang) {
   localStorage.setItem('language', lang);
 
   // 2. Încărcăm fișierul JSON cu traduceri
-  fetch(`lang/${lang}.json`)
+  fetch(`../lang/${lang}.json`)
     .then(response => {
       if (!response.ok) {
         throw new Error("Nu am găsit fișierul de limbă: " + response.status);
