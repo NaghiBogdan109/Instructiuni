@@ -106,3 +106,65 @@ main h2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Div de informații inițiale despre instalare */
+.info-instalare {
+  background-color: #f8f9fc;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Div pentru lista de erori comune */
+.erori-comune {
+  background-color: #f8f9fc;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Div general pentru conținutul instrucțiunilor */
+.continut-instructiuni {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+/* Fiecare pas este un mic "card" */
+.continut-instructiuni .pas {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;   /* Aliniere verticală la mijloc */
+  gap: 15px;            /* Spațiu între text și imagine */
+}
+
+/* Imaginea din fiecare pas */
+.continut-instructiuni .pas img {
+  max-width: 250px;   /* Ajustează lățimea dorită */
+  border-radius: 5px; 
+  /* Poti adăuga box-shadow etc. */
+}
+
+
+
