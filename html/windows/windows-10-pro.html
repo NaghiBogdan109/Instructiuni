@@ -8,12 +8,53 @@
 <body>
   <!-- Include header -->
   <div id="header-include"></div>
-  <hr />
+ 
+<!-- Div 1: Informații despre instalare (de ex. recomandare descărcare) -->
+<div class="info-instalare">
+  <p data-i18n="textInstalareWin10">
+    Dacă nu aveți deja instalat Windows 10 Professional, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:
+    <a data-i18n="linkInstalareWin10" href="https://www.microsoft.com/software-download/windows10" target="_blank">
+      https://www.microsoft.com/software-download/windows10
+    </a>
+  </p>
+</div>
 
-  <h1>Windows 10 Pro</h1>
-  <p>Aici poți scrie instrucțiuni despre instalare, activare, etc. pentru Windows 10 Pro.</p>
-  <!-- Conținut suplimentar: imagini, pași, text, linkuri... -->
+<!-- Div 2: Erori comune -->
+<div class="erori-comune">
+  <h2 data-i18n="eroriTitleWin10">Erori comune în timpul activării:</h2>
+  <ul>
+    <li>
+      0xC004f050 
+      (<a data-i18n="eroare1Link" href="#">Faceți clic aici pentru a afla cum să remediați această eroare</a>)
+    </li>
+    <li>
+      0xC004C008 
+      (<a data-i18n="eroare2Link" href="#">Faceți clic aici pentru a afla cum să remediați această eroare</a>)
+    </li>
+  </ul>
+  <p data-i18n="eroareHelp">
+    Dacă primiți orice altă eroare, vă rugăm să contactați echipa noastră de asistență prin e-mail la 
+    <a href="mailto:support@wow-soft.ro">support@wow-soft.ro</a> sau pe pagina de Contact pentru ajutor suplimentar.
+  </p>
+</div>
 
+<!-- Div 3: conținut-instructiuni (pași + imagini) -->
+<div class="continut-instructiuni">
+  <!-- Exemplu: fiecare pas în propriul div -->
+  <div class="pas">
+    <p data-i18n="pas1Win10">1. Faceți clic pe Start, mergeți la Setări</p>
+    <img src="../../images/windows-settings.jpg" alt="Setări Windows" />
+  </div>
+
+  <div class="pas">
+    <p data-i18n="pas2Win10">2. Selectați Actualizare și Securitate</p>
+    <img src="../../images/windows-update.jpg" alt="Actualizare și Securitate" />
+  </div>
+  
+  <!-- Adaugi câți pași ai nevoie... -->
+</div>
+
+  
   <script src="../../js/include-header.js"></script>
 </body>
 </html>
