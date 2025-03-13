@@ -3,5 +3,15 @@
   "mainText": "Bine ai venit pe site! Aici vei găsi...",
   "pictureOne": "O poză cât tot chenarul care duce la un alt link de pe site",
   "pictureTwo": "A doua poză care duce la un alt link de pe site"
-}
 
+  "textInstalareWin10": "Dacă nu aveți deja instalat Windows 10 Professional...",
+  "linkInstalareWin10": "Descarcă Windows 10",
+
+  "eroriTitleWin10": "Erori comune în timpul activării:",
+  "eroare1Link": "Faceți clic aici pentru a afla cum să remediați această eroare",
+  "eroare2Link": "Faceți clic aici pentru a afla cum să remediați această eroare",
+  "eroareHelp": "Dacă primiți orice altă eroare, vă rugăm să contactați echipa noastră...",
+
+  "pas1Win10": "1. Faceți clic pe Start, mergeți la Setări",
+  "pas2Win10": "2. Selectați Actualizare și Securitate"
+}
