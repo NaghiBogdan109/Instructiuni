@@ -7,9 +7,9 @@
   "linkInstalareWin10": "Descarcă Windows 10",
   "infoInstalareWin10": "Dacă nu aveți deja instalat Windows 10 Professional, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:",
 
-  "eroriTitleWin10": "Erori comune în timpul activării:",
-  "eroare1Link": "Faceți clic aici pentru a afla cum să remediați această eroare",
-  "eroare2Link": "Faceți clic aici pentru a afla cum să remediați această eroare",
+  "eroriTitleWin10pro": "Erori comune în timpul activării:",
+  "eroare1LinkWin10pro": "Faceți clic aici pentru a afla cum să remediați această eroare",
+  "eroare2LinkWin10pro": "Faceți clic aici pentru a afla cum să remediați această eroare",
 
   "pas1Win10pro": "1. Faceți clic pe Start, mergeți la Setări",
   "pas2Win10pro": "2. Selectați Actualizare și Securitate",
