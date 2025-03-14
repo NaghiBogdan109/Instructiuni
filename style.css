@@ -183,3 +183,45 @@ main h2 {
 
 
 
+
+
+
+
+
+
+
+
+/* Containerul principal pentru eroare 0xc004f050 */
+.eroare-0xc004f050 {
+  background-color: #fff;          /* Fundal alb pentru contrast */
+  border: 2px solid #ccc;         /* Linia de contur (gri deschis) */
+  border-radius: 10px;            /* Colțuri rotunjite */
+  padding: 20px 30px;             /* Spațiere interioară */
+  margin: 20px 0;                 /* Spațiere față de elementele din jur */
+  box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Umbră subtilă pentru efect de card */
+  max-width: 900px;               /* Lățime maximă, ca restul layoutului */
+  margin-left: auto;              /* Centrare orizontală */
+  margin-right: auto;
+}
+
+/* Paragrafele din interiorul containerului */
+.eroare-0xc004f050 p {
+  margin-bottom: 15px;            /* Spațiu între linii */
+  line-height: 1.5;               /* Înălțime linie ușor mărită pentru lizibilitate */
+}
+
+/* Stil suplimentar pentru link-urile din text */
+.eroare-0xc004f050 a {
+  color: #007bff;                 /* Albastru pentru linkuri */
+  text-decoration: none;          /* Fără subliniere implicită */
+  transition: color 0.2s ease;
+}
+
+/* Efect la hover pe link */
+.eroare-0xc004f050 a:hover {
+  color: #0056b3;                 /* O nuanță mai închisă la hover */
+}
+
+
+
+
