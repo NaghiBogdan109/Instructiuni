@@ -177,7 +177,6 @@ main h2 {
   width: auto;   /* Ajustează lățimea dorită */
   hight: auto;
   border-radius: 15px; 
-  right: 0px;
   /* Poti adăuga box-shadow etc. */
 }
 
