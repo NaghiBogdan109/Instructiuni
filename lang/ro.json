@@ -116,5 +116,13 @@
   "pas4Off16pro": "5. Faceți clic pe Start și deschideți orice aplicație Office (de exemplu, deschideți Word)",
   "pas4Off16pro": "6. Așteptați să apară ecranul de activare",
   "pas4Off16pro": "7. Introduceți cheia de produs pe care ați primit-o după achiziție, apoi faceți clic pe Activare Office",
-  "pas5Off16pro": "8. Gata acum aveti Office-ul activat"
+  "pas5Off16pro": "8. Gata acum aveti Office-ul activat",
+
+
+
+
+  "pas1OffPhone": "1. Daca va apare o fereastră asemanatoare trebuie să selectați „Activați prin telefon” și apoi vă va afișa ecranul ID de instalare cu un număr de telefon gratuit care este un sistem robot automat",
+  "pas2OffPhone": "2. Apelați sistemul automat de bot și furnizați-i ID-ul de instalare",
+  "pas3OffPhone": "3. Botul vă va furniza un ID de confirmare pe care îl puteți introduce pe același ecran",
+  "pas4OffPhone": "4. Gata, acum Office-ul dvs. este complet activat."
 }
