@@ -161,8 +161,8 @@ main h2 {
 
 /* Imaginea din fiecare pas */
 .continut-instructiuni .pas img {
-  max-width: 250px;   /* Ajustează lățimea dorită */
-  border-radius: 5px; 
+  max-width: 800px;   /* Ajustează lățimea dorită */
+  border-radius: 15px; 
   /* Poti adăuga box-shadow etc. */
 }
 
