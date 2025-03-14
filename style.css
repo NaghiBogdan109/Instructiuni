@@ -148,6 +148,7 @@ main h2 {
 .erori-comune {
   background-color: #fff;
   border-radius: 10px;
+  border: 1px solid #ddd;
   padding: 20px 25px;
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
