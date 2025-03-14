@@ -48,7 +48,7 @@
   "pas2Win11pro": "2. Faceți clic pe Sistem -> Activare",
   "pas3Win11pro": "3. Faceți clic pe Activare sau Schimbare cheie de produs",
   "pas4Win11pro": "4. Introduceți cheia de licență pe care ați primit-o după achiziție",
-  "pas5Win11pro": "5. Gata, acum Windows-ul dvs. este complet activat și veți avea acces la funcțiile Premium."
+  "pas5Win11pro": "5. Gata, acum Windows-ul dvs. este complet activat și veți avea acces la funcțiile Premium.",
 
 
 
@@ -64,5 +64,25 @@
   "pas2Win11home": "2. Faceți clic pe Sistem -> Activare",
   "pas3Win11home": "3. Faceți clic pe Activare sau Schimbare cheie de produs",
   "pas4Win11home": "4. Introduceți cheia de licență pe care ați primit-o după achiziție",
-  "pas5Win11home": "5. Gata, acum Windows-ul dvs. este complet activat și veți avea acces la funcțiile Premium."
+  "pas5Win11home": "5. Gata, acum Windows-ul dvs. este complet activat și veți avea acces la funcțiile Premium.",
+
+
+
+
+
+
+
+  "infoInstalareOff21pro": "Dacă nu aveți deja instalat Windows 11 Home, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:",
+
+  "pas1Off21pro": "1. Descărcați fișierul de instalare Office de pe linkul de mai sus",
+  "pas2Off21pro": "2. Faceți dublu clic sau clic dreapta pe fișierul „ProPlus2021Retail.img”, apoi faceți clic pe Montare",
+  "pas3Off21pro": "3. Faceți dublu clic sau clic dreapta pe fișierul „Setup”, apoi faceți clic pe Deschidere",
+  "pas4Off21pro": "4. Așteptați finalizarea instalării/configurării",
+  "pas4Off21pro": "5. Faceți clic pe Start și deschideți orice aplicație Office (de exemplu, deschideți Word)",
+  "pas4Off21pro": "6. Așteptați să apară ecranul de activare",
+  "pas4Off21pro": "7. Introduceți cheia de produs pe care ați primit-o după achiziție, apoi faceți clic pe Activare Office",
+  "pas5Off21pro": "8. Gata acum aveti Office-ul activat"
+
+
+  
 }
