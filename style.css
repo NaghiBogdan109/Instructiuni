@@ -166,6 +166,7 @@ main h2 {
   border: 1px solid #ddd;
   border-radius: 10px;
   display: flex;
+  justify-content: space-between;
   align-items: center;   /* Aliniere verticală la mijloc */
   gap: 15px;            /* Spațiu între text și imagine */
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
