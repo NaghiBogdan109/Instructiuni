@@ -16,7 +16,7 @@
   "pas3Win10pro": "3. Faceți clic pe fila Activare situată în partea stângă",
   "pas4Win10pro": "4. Faceți clic pe Activare sau Schimbare cheie de produs",
   "pas5Win10pro": "5. Introduceți cheia de licență pe care ați primit-o după achiziție",
-  "pas6Win10pro": "6. Gata, acum Windows-ul dvs. este complet activat și veți avea acces la funcțiile Premium."
+  "pas6Win10pro": "6. Gata, acum Windows-ul dvs. este complet activat și veți avea acces la funcțiile Premium.",
 
 
 
@@ -32,5 +32,21 @@
   "pas3Win10home": "3. Faceți clic pe fila Activare situată în partea stângă",
   "pas4Win10home": "4. Faceți clic pe Activare sau Schimbare cheie de produs",
   "pas5Win10home": "5. Introduceți cheia de licență pe care ați primit-o după achiziție",
-  "pas6Win10home": "6. Gata, acum Windows-ul dvs. este complet activat și veți avea acces la funcțiile Premium."
+  "pas6Win10home": "6. Gata, acum Windows-ul dvs. este complet activat și veți avea acces la funcțiile Premium.",
+
+
+
+
+  "infoInstalareWin11pro": "Dacă nu aveți deja instalat Windows 11 Professional, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:",
+
+  "eroriTitleWin11pro": "Erori comune în timpul activării:",
+  "eroare1LinkWin11pro": "Faceți clic aici pentru a afla cum să remediați această eroare",
+  "eroare2LinkWin11pro": "Faceți clic aici pentru a afla cum să remediați această eroare",
+  "eroare3LinkWin11pro": "Faceți clic aici pentru a afla cum să remediați această eroare",
+
+  "pas1Win11pro": "1. Faceți clic pe Start -> Mergeți la Setări",
+  "pas2Win11pro": "2. Faceți clic pe Sistem -> Activare",
+  "pas3Win11pro": "3. Faceți clic pe Activare sau Schimbare cheie de produs",
+  "pas4Win11pro": "4. Introduceți cheia de licență pe care ați primit-o după achiziție",
+  "pas5Win11pro": "5. Gata, acum Windows-ul dvs. este complet activat și veți avea acces la funcțiile Premium."
 }
