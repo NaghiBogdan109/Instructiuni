@@ -120,7 +120,9 @@
 
 
 
-
+  
+  "titlePhone":"Activare Telefonica",
+  
   "pas1OffPhone": "1. Daca va apare o fereastră asemanatoare trebuie să selectați „Activați prin telefon” și apoi vă va afișa ecranul ID de instalare cu un număr de telefon gratuit care este un sistem robot automat",
   "pas2OffPhone": "2. Apelați sistemul automat de bot și furnizați-i ID-ul de instalare",
   "pas3OffPhone": "3. Botul vă va furniza un ID de confirmare pe care îl puteți introduce pe același ecran",
