@@ -153,20 +153,25 @@
 
 
 
-
-  "line1-0xc004f050": "Cum să rezolvi eroarea 0xc004f050 - Windows 10",
-  "line2-0xc004f050": "Eroarea 0xc004f050 apare dacă încercați să faceți upgrade de la o ediție la alta sau utilizați cheia de produs pe o ediție diferită. Așadar, mai întâi asigurați-vă că aveți instalat Windows 10 Professional, apoi continuați cu activarea.",
-  "line3-0xc004f050": "Puteți descărca și instala Windows 10 Pro gratuit de pe pagina oficială de descărcare Microsoft:",
-  
-  "line5-0xc004f050": "Cum să efectuați o instalare curată:",
- 
-  "line7-0xc004f050": "După instalarea Windows 10 Professional, urmați pașii de mai jos:",
-  "line8-0xc004f050": "1. Mergeți la Setări",
-  "line9-0xc004f050": "2. Selectați Actualizare și securitate",
-  "line10-0xc004f050": "3. Mergeți la Activare",
-  "line11-0xc004f050": "4. Faceți clic pe Activați sau Schimbați cheia de produs",
-  "line12-0xc004f050": "5. Introduceți cheia de licență primită după achiziție",
-  "line13-0xc004f050": "6. Gata, Windows-ul dvs. este acum complet activat",
+  "line1w10-0xc004f050": "Cum să rezolvi eroarea 0xc004f050 - Windows 10",
+  "line2w10-0xc004f050": "Eroarea 0xc004f050 apare dacă încercați să faceți upgrade de la o ediție la alta sau utilizați cheia de produs pe o ediție diferită. Așadar, mai întâi asigurați-vă că aveți instalat Windows 10 Professional, apoi continuați cu activarea.",
+  "line3w10-0xc004f050": "Puteți descărca și instala Windows 10 Pro gratuit de pe pagina oficială de descărcare Microsoft:",
+  "line4w10-0xc004f050": "https://www.microsoft.com/en-us/software-download/windows10",
+  "line5w10-0xc004f050": "Cum să efectuați o instalare curată:",
+  "line6w10-0xc004f050": "https://www.howtogeek.com/224342/how-to-clean-install-windows-10/",
+  "line7w10-0xc004f050": "După instalarea Windows 10 Professional, urmați pașii de mai jos:",
+  "line8w10-0xc004f050": "Mergeți la Setări",
+  "line9w10-0xc004f050": "Selectați Actualizare și securitate",
+  "line10w10-0xc004f050": "Mergeți la Activare",
+  "line11w10-0xc004f050": "Faceți clic pe Activați sau Schimbați cheia de produs",
+  "line12w10-0xc004f050": "Introduceți cheia de licență primită după achiziție",
+  "line13w10-0xc004f050": "Gata, Windows-ul dvs. este acum complet activat",
+  "line14w10-0xc004f050": "Dacă nu doriți să faceți o instalare curată, urmați acest tutorial video pentru a face upgrade de la Windows 10 Home la Pro și apoi folosiți cheia dvs. de produs:",
+  "line15w10-0xc004f050": "Urmați acest tutorial video:",
+  "line16w10-0xc004f050": "https://www.youtube.com/watch?v=F_jGe1kRBZo&feature=youtu.be",
+  "line17w10-0xc004f050": "Apoi activați Windows-ul cu cheia dvs. de produs",
+  "line18w10-0xc004f050": "Notă: Această soluție este valabilă doar dacă aveți Windows 10 Home. Dacă întâmpinați vreo eroare în timpul procesului de upgrade, atunci este necesară o instalare nouă."
+}
 
 
 
