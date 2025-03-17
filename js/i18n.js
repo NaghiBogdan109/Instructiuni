@@ -1,18 +1,17 @@
 function setLanguage(lang) {
-  // 1. Salvăm limba
+  // 1. Salvăm limba selectată
   localStorage.setItem('language', lang);
 
-  // 2. Vedem unde ne aflăm (windows/office sau nu)
+  // 2. Determinăm calea corectă pentru fișierul JSON
   const pathName = window.location.pathname; 
   let jsonPath = "../lang";
 
-  // Dacă URL-ul conține /windows/ sau /office/, atunci mai adăugăm un nivel
+  // Dacă URL-ul conține "/windows/" sau "/office/", ajustăm calea
   if (pathName.includes("/windows/") || pathName.includes("/office/")) {
-    // trebuie să urcăm 2 niveluri ca să ajungem la /lang
     jsonPath = "../../lang";
   }
 
-  // 3. Facem fetch cu calea corectă
+  // 3. Facem fetch la fișierul JSON
   fetch(`${jsonPath}/${lang}.json`)
     .then(response => {
       if (!response.ok) {
@@ -21,11 +20,11 @@ function setLanguage(lang) {
       return response.json();
     })
     .then(translation => {
-      // 4. Atribuim textul tradus
+      // 4. Aplicăm traducerile
       document.querySelectorAll("[data-i18n]").forEach(elem => {
         const key = elem.getAttribute("data-i18n");
         if (translation[key]) {
-          elem.textContent = translation[key];
+          elem.innerHTML = translation[key]; // Folosim innerHTML pentru a păstra formatarea HTML
         }
       });
     })
