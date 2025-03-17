@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+li{
+  margin-bottom:5px;
+}
+
+
 /* BODY */
 body {
   font-family: Arial, sans-serif;
