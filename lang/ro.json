@@ -166,5 +166,25 @@
   "line10-0xc004f050": "3. Mergeți la Activare",
   "line11-0xc004f050": "4. Faceți clic pe Activați sau Schimbați cheia de produs",
   "line12-0xc004f050": "5. Introduceți cheia de licență primită după achiziție",
-  "line13-0xc004f050": "6. Gata, Windows-ul dvs. este acum complet activat"
+  "line13-0xc004f050": "6. Gata, Windows-ul dvs. este acum complet activat",
+
+
+
+
+  
+  "line1w11-0xc004f050": "Cum să rezolvi eroarea 0xc004f050 - Windows 11",
+  "line2w11-0xc004f050": "Eroarea 0xc004f050 apare dacă încercați să faceți upgrade de la o ediție la alta sau utilizați cheia de produs pe o ediție diferită. Așadar, mai întâi asigurați-vă că aveți instalat Windows 11 Professional, apoi continuați cu activarea.",
+  "line3w11-0xc004f050": "Puteți descărca și instala Windows 11 Pro gratuit de pe pagina oficială de descărcare Microsoft:",
+  "line4w11-0xc004f050": "https://www.microsoft.com/en-us/software-download/windows11",
+  "line5w11-0xc004f050": "Cum să efectuați o instalare curată:",
+  "line6w11-0xc004f050": "https://www.howtogeek.com/224342/how-to-clean-install-windows-11/",
+  "line7w11-0xc004f050": "După instalarea Windows 11 Professional, urmați pașii de mai jos:",
+  "line8w11-0xc004f050": "1. Mergeți la Setări",
+  "line9w11-0xc004f050": "2. Selectați Actualizare și securitate",
+  "line10w11-0xc004f050": "3. Mergeți la Activare",
+  "line11w11-0xc004f050": "4. Faceți clic pe Activați sau Schimbați cheia de produs",
+  "line12w11-0xc004f050": "5. Introduceți cheia de licență primită după achiziție",
+  "line13w11-0xc004f050": "6. Gata, Windows-ul dvs. este acum complet activat"
+
+
 }
