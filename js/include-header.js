@@ -1,29 +1,30 @@
-// js/include-header.js
-
 document.addEventListener("DOMContentLoaded", function() {
-  // 1) Stabilim calea pentru header.html în funcție de folderul curent
   let pathName = window.location.pathname; 
-  let headerPath = "header.html"; // implicit, dacă ești la același nivel (ex: /html/index.html)
-  let i18nPath   = "../js/i18n.js"; // implicit, ca să mergi din /html/ spre /js/
-  
-  // Dacă URL-ul conține "/windows/" sau "/office/", înseamnă că ești în subfolder
-  if (pathName.includes("/windows/") || pathName.includes("/office/")) {
-    headerPath = "../header.html";       // un nivel mai sus
-    i18nPath   = "../../js/i18n.js";     // două niveluri mai sus până la rădăcină, apoi /js/
+  // 1) Dacă ești la root (index.html), calea implicită e "header.html".
+  let headerPath = "header.html";
+  let i18nPath   = "js/i18n.js";
+
+  // 2) Dacă ești în /html/windows/ sau /html/office/, mergi două niveluri în sus
+  if (pathName.includes("/html/windows/") || pathName.includes("/html/office/")) {
+    headerPath = "../../header.html";
+    i18nPath   = "../../js/i18n.js";
+  }
+  // 3) Dacă ești în /html/ direct (ex. /html/windows.html, /html/office.html),
+  // mergi un nivel în sus
+  else if (pathName.includes("/html/")) {
+    headerPath = "../header.html";
+    i18nPath   = "../js/i18n.js";
   }
 
-  // 2) Facem fetch pentru header.html
+  // 4) Facem fetch pentru header.html
   fetch(headerPath)
     .then(response => response.text())
     .then(html => {
-      // 3) Injectăm conținutul headerului în <div id="header-include">
       document.getElementById("header-include").innerHTML = html;
 
-      // 4) După ce am inserat header-ul, încărcăm scriptul i18n.js dinamic
+      // 5) Încarc scriptul i18n.js
       const script = document.createElement("script");
       script.src = i18nPath;
-
-      // Când scriptul e gata, apelăm setLanguage
       script.onload = function() {
         const urlParams = new URLSearchParams(window.location.search);
         const paramLang = urlParams.get('lang');
@@ -34,8 +35,6 @@ document.addEventListener("DOMContentLoaded", function() {
           setLanguage(savedLang);
         }
       };
-
-      // Adăugăm scriptul în <body>, astfel se execută
       document.body.appendChild(script);
     })
     .catch(err => console.error("Eroare la încărcarea header-ului:", err));
