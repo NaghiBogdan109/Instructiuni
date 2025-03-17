@@ -172,19 +172,26 @@
 
 
   
+
   "line1w11-0xc004f050": "Cum să rezolvi eroarea 0xc004f050 - Windows 11",
-  "line2w11-0xc004f050": "Eroarea 0xc004f050 apare dacă încercați să faceți upgrade de la o ediție la alta sau utilizați cheia de produs pe o ediție diferită. Așadar, mai întâi asigurați-vă că aveți instalat Windows 11 Professional, apoi continuați cu activarea.",
-  "line3w11-0xc004f050": "Puteți descărca și instala Windows 11 Pro gratuit de pe pagina oficială de descărcare Microsoft:",
-  "line4w11-0xc004f050": "https://www.microsoft.com/en-us/software-download/windows11",
-  "line5w11-0xc004f050": "Cum să efectuați o instalare curată:",
-  "line6w11-0xc004f050": "https://www.howtogeek.com/224342/how-to-clean-install-windows-11/",
-  "line7w11-0xc004f050": "După instalarea Windows 11 Professional, urmați pașii de mai jos:",
-  "line8w11-0xc004f050": "1. Mergeți la Setări",
-  "line9w11-0xc004f050": "2. Selectați Actualizare și securitate",
-  "line10w11-0xc004f050": "3. Mergeți la Activare",
-  "line11w11-0xc004f050": "4. Faceți clic pe Activați sau Schimbați cheia de produs",
-  "line12w11-0xc004f050": "5. Introduceți cheia de licență primită după achiziție",
-  "line13w11-0xc004f050": "6. Gata, Windows-ul dvs. este acum complet activat"
+  "line2w11-0xc004f050": "Eroarea 0xC004F050 poate apărea dacă aveți instalată o ediție greșită de Windows, așa că vă rugăm să verificați și să confirmați ce ediție aveți instalată, deoarece această cheie de produs este pentru ediția standard Windows 11 Pro.",
+  "line3w11-0xc004f050": "Pentru a verifica ediția Windows:",
+  "line4w11-0xc004f050": "Tastați 'Despre PC-ul dvs.' în bara de căutare Windows.",
+  "line5w11-0xc004f050": "Derulați în jos și găsiți eticheta 'Specificații Windows'.",
+  "line6w11-0xc004f050": "Verificați ce este scris în fața titlului 'Ediție'.",
+  "line7w11-0xc004f050": "Cum să remediați eroarea 0xC004F050 dacă aveți ediția standard Windows 11 Home:",
+  "line8w11-0xc004f050": "Tastați 'Verificare actualizări' în bara de căutare Windows.",
+  "line9w11-0xc004f050": "Descărcați și instalați toate actualizările.",
+  "line10w11-0xc004f050": "Deconectați dispozitivul de la internet.",
+  "line11w11-0xc004f050": "Introduceți cheia de produs generică pentru upgrade 'VK7JG-NPHTM-C97JM-9MPGT-3V66T'.",
+  "line12w11-0xc004f050": "Reporniți dispozitivul.",
+  "line13w11-0xc004f050": "După finalizarea upgrade-ului, introduceți cheia de produs pe care ați primit-o după achiziție pentru activare.",
+  "line14w11-0xc004f050": "Dacă după repornire nu s-a schimbat nimic, introduceți din nou cheia de produs și ar trebui să funcționeze.",
+  "line15w11-0xc004f050": "Notă: ignorați orice eroare care apare atunci când introduceți cheia în timp ce sunteți deconectat de la internet.",
+  "line16w11-0xc004f050": "Dacă aveți alte ediții instalate, cum ar fi Windows 11 Pro N, Windows 11 Home Single Language, Windows 11 Enterprise sau altele, va trebui să faceți o instalare curată:",
+  "line17w11-0xc004f050": "https://www.microsoft.com/en-us/software-download/windows11",
+  "line18w11-0xc004f050": "https://pureinfotech.com/clean-install-windows-11/",
+  "line19w11-0xc004f050": "https://www.youtube.com/watch?v=5nS8qXgT-Ko"
 
 
 }
