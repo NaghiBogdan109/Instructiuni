@@ -217,6 +217,15 @@ main h2 {
   transition: color 0.2s ease;
 }
 
+.eroare-0xc004f050 ul {
+    padding-left: 20px;  /* Creează indentare pentru tab */
+    margin-bottom: 10px; /* Adaugă spațiu între liste */
+}
+
+.eroare-0xc004f050 ul li {
+    margin-bottom: 5px;  /* Adaugă spațiu între fiecare element din listă */
+}
+
 /* Efect la hover pe link */
 .eroare-0xc004f050 a:hover {
   color: #0056b3;                 /* O nuanță mai închisă la hover */
