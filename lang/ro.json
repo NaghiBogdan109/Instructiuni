@@ -203,6 +203,8 @@
 
 
 
+
+
   
   "line1w10-0xC004C008": "Cum să rezolvi eroarea 0xC004C008 - Windows 10",
   "line2w10-0xC004C008": "Dacă apare eroarea 0xC004C008, vă rugăm să continuați cu procesul de activare prin telefon:",
@@ -210,7 +212,20 @@
   "line4w10-0xC004C008": "Selectați țara dvs., apoi faceți clic pe <strong>Următorul pas</strong>.",
   "line5w10-0xC004C008": "Veți vedea ID-ul de instalare (ex. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
   "line6w10-0xC004C008": "Sunați la numărul gratuit și vi se va furniza ID-ul de confirmare pentru activarea Windows-ului dvs.",
-  "line7w10-0xC004C008": "Dacă nu doriți să contactați numărul gratuit sau dacă serviciile lor sunt ocupate, ne puteți trimite o captură de ecran cu ID-ul de instalare și noi îi vom contacta în numele dvs. și vă vom furniza ID-ul de confirmare."
+  "line7w10-0xC004C008": "Dacă nu doriți să contactați numărul gratuit sau dacă serviciile lor sunt ocupate, ne puteți trimite o captură de ecran cu ID-ul de instalare și noi îi vom contacta în numele dvs. și vă vom furniza ID-ul de confirmare.",
+
+
+
+ 
+  "line1w11-0xC004C008": "Cum să rezolvi eroarea 0xC004C008 - Windows 11",
+  "line2w11-0xC004C008": "Dacă apare eroarea 0xC004C008, vă rugăm să continuați cu procesul de activare prin telefon:",
+  "line3w11-0xC004C008": "Tastați <strong>\"SLUI.exe 04\"</strong> în bara de activități Windows.",
+  "line4w11-0xC004C008": "Selectați țara dvs., apoi faceți clic pe <strong>următorul pas</strong>.",
+  "line5w11-0xC004C008": "Veți vedea ID-ul de instalare (ex. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
+  "line6w11-0xC004C008": "Sunați la numărul gratuit și vi se va furniza ID-ul de confirmare pentru activarea Windows-ului dvs.",
+  "line7w11-0xC004C008": "Dacă nu doriți să contactați numărul gratuit sau dacă serviciile lor sunt ocupate, ne puteți trimite o captură de ecran cu ID-ul de instalare și noi îi vom contacta în numele dvs. și vă vom furniza ID-ul de confirmare."
+
+
 
 
 
