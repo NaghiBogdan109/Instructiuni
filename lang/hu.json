@@ -1,0 +1,212 @@
+{
+  "headerTitle": "Ez a fejléc",
+  "mainText": "Üdvözöljük a weboldalon! Itt megtalálja...",
+  "pictureOne": "Egy teljes szélességű kép, amely egy másik oldalra mutat",
+  "pictureTwo": "Egy másik kép, amely szintén egy másik oldalra mutat",
+
+  "pagina-pornire": "<a href=\"https://ms-installation-guide.com\">Kezdőlap</a>",
+  "instructiuni-windows": "Windows telepítési útmutatók",
+  "instructiuni-office": "Office telepítési útmutatók",
+  "erori-comune": "Gyakori Windows-hibák",
+
+
+  "infoInstalareWin10pro": "Ha még nincs telepítve a Windows 10 Professional, javasoljuk, hogy először töltse le és telepítse innen:",
+  "eroriTitleWin10pro": "Gyakori hibák az aktiválás során:",
+  "eroare1LinkWin10pro": "Kattintson ide, hogy megtudja, hogyan javítható ez a hiba",
+  "eroare2LinkWin10pro": "Kattintson ide, hogy megtudja, hogyan javítható ez a hiba",
+
+  "pas1Win10pro": "1. Kattintson a Start menüre, majd lépjen a Beállításokra",
+  "pas2Win10pro": "2. Válassza a Frissítés és biztonság menüpontot",
+  "pas3Win10pro": "3. Kattintson bal oldalt az Aktiválás fülre",
+  "pas4Win10pro": "4. Válassza az Aktiválás vagy Termékkulcs módosítása lehetőséget",
+  "pas5Win10pro": "5. Írja be a vásárlás után kapott licenckulcsot",
+  "pas6Win10pro": "6. Kész, mostantól a Windows teljesen aktivált, és hozzáférhet a Prémium funkciókhoz.",
+
+
+
+  "infoInstalareWin10home": "Ha még nincs telepítve a Windows 10 Home, javasoljuk, hogy először töltse le és telepítse innen:",
+  "eroriTitleWin10home": "Gyakori hibák az aktiválás során:",
+  "eroare1LinkWin10home": "Kattintson ide, hogy megtudja, hogyan javítható ez a hiba",
+  "eroare2LinkWin10home": "Kattintson ide, hogy megtudja, hogyan javítható ez a hiba",
+
+  "pas1Win10home": "1. Kattintson a Start menüre, majd lépjen a Beállításokra",
+  "pas2Win10home": "2. Válassza a Frissítés és biztonság menüpontot",
+  "pas3Win10home": "3. Kattintson bal oldalt az Aktiválás fülre",
+  "pas4Win10home": "4. Válassza az Aktiválás vagy Termékkulcs módosítása lehetőséget",
+  "pas5Win10home": "5. Írja be a vásárlás után kapott licenckulcsot",
+  "pas6Win10home": "6. Kész, mostantól a Windows teljesen aktivált, és hozzáférhet a Prémium funkciókhoz.",
+
+
+
+
+  "infoInstalareWin11pro": "Ha még nincs telepítve a Windows 11 Professional, javasoljuk, hogy először töltse le és telepítse innen:",
+  "eroriTitleWin11pro": "Gyakori hibák az aktiválás során:",
+  "eroare1LinkWin11pro": "Kattintson ide, hogy megtudja, hogyan javítható ez a hiba",
+  "eroare2LinkWin11pro": "Kattintson ide, hogy megtudja, hogyan javítható ez a hiba",
+  "eroare3LinkWin11pro": "Kattintson ide, hogy megtudja, hogyan javítható ez a hiba",
+
+  "pas1Win11pro": "1. Kattintson a Start menüre -> Lépjen a Beállításokra",
+  "pas2Win11pro": "2. Válassza a Rendszer -> Aktiválás lehetőséget",
+  "pas3Win11pro": "3. Válassza az Aktiválás vagy Termékkulcs módosítása lehetőséget",
+  "pas4Win11pro": "4. Írja be a vásárlás után kapott licenckulcsot",
+  "pas5Win11pro": "5. Kész, mostantól a Windows teljesen aktivált, és hozzáférhet a Prémium funkciókhoz.",
+
+
+
+
+  "infoInstalareWin11home": "Ha még nincs telepítve a Windows 11 Home, javasoljuk, hogy először töltse le és telepítse innen:",
+  "eroriTitleWin11home": "Gyakori hibák az aktiválás során:",
+  "eroare1LinkWin11home": "Kattintson ide, hogy megtudja, hogyan javítható ez a hiba",
+  "eroare2LinkWin11home": "Kattintson ide, hogy megtudja, hogyan javítható ez a hiba",
+  "eroare3LinkWin11home": "Kattintson ide, hogy megtudja, hogyan javítható ez a hiba",
+
+  "pas1Win11home": "1. Kattintson a Start menüre -> Lépjen a Beállításokra",
+  "pas2Win11home": "2. Válassza a Rendszer -> Aktiválás lehetőséget",
+  "pas3Win11home": "3. Válassza az Aktiválás vagy Termékkulcs módosítása lehetőséget",
+  "pas4Win11home": "4. Írja be a vásárlás után kapott licenckulcsot",
+  "pas5Win11home": "5. Kész, mostantól a Windows teljesen aktivált, és hozzáférhet a Prémium funkciókhoz.",
+
+
+
+
+
+
+
+
+
+
+
+
+  "infoInstalareOff24pro": "Ha még nincs telepítve az Office 2021 Professional Plus, javasoljuk, hogy először töltse le és telepítse innen:",
+  "pas1Off24pro": "1. Töltse le az Office telepítőfájlt a fenti linkről",
+  "pas2Off24pro": "2. Nyissa meg a letöltött (.rar) fájlt, majd kattintson duplán a (.exe) fájlra",
+  "pas3Off24pro": "3. Hagyja meg az alapértelmezett beállításokat a célmappához, és kattintson az Install gombra",
+  "pas4Off24pro": "4. Várja meg, amíg a telepítés befejeződik",
+  "pas5Off24pro": "5. Nyisson meg bármilyen Office-alkalmazást",
+  "pas6Off24pro": "6. Várja meg, hogy automatikusan megjelenjen az aktiválási képernyő",
+  "pas7Off24pro": "7. Írja be a vásárlás után kapott termékkulcsot, majd kattintson az Office aktiválása gombra",
+
+
+
+
+  "infoInstalareOff21pro": "Ha még nincs telepítve az Office 2021 Professional Plus, javasoljuk, hogy először töltse le és telepítse innen:",
+  "pas1Off21pro": "1. Töltse le az Office telepítőfájlt a fenti linkről",
+  "pas2Off21pro": "2. Kattintson duplán vagy jobb gombbal a „ProPlus2021Retail.img” fájlra, majd válassza a Csatolás (Mount) lehetőséget",
+  "pas3Off21pro": "3. Kattintson duplán vagy jobb gombbal a „Setup” fájlra, majd válassza a Megnyitás lehetőséget",
+  "pas4Off21pro": "4. Várja meg, amíg a telepítés/kialakítás befejeződik",
+  "pas4Off21pro": "5. Kattintson a Start menüre, majd nyissa meg bármelyik Office-alkalmazást (pl. Word)",
+  "pas4Off21pro": "6. Várja meg, hogy megjelenjen az aktiválási képernyő",
+  "pas4Off21pro": "7. Írja be a vásárlás után kapott termékkulcsot, majd kattintson az Office aktiválása gombra",
+  "pas5Off21pro": "8. Kész, most már aktiválva van az Office",
+
+
+
+  "infoInstalareOff19pro": "Ha még nincs telepítve az Office 2019 Professional Plus, javasoljuk, hogy először töltse le és telepítse innen:",
+  "pas1Off19pro": "1. Töltse le az Office telepítőfájlt a fenti linkről",
+  "pas2Off19pro": "2. Kattintson duplán vagy jobb gombbal a „ProPlus2019Retail.img” fájlra, majd válassza a Csatolás (Mount) lehetőséget",
+  "pas3Off19pro": "3. Kattintson duplán vagy jobb gombbal a „Setup” fájlra, majd válassza a Megnyitás lehetőséget",
+  "pas4Off19pro": "4. Várja meg, amíg a telepítés/kialakítás befejeződik",
+  "pas4Off19pro": "5. Kattintson a Start menüre, majd nyissa meg bármelyik Office-alkalmazást (pl. Word)",
+  "pas4Off19pro": "6. Várja meg, hogy megjelenjen az aktiválási képernyő",
+  "pas4Off19pro": "7. Írja be a vásárlás után kapott termékkulcsot, majd kattintson az Office aktiválása gombra",
+  "pas5Off19pro": "8. Kész, most már aktiválva van az Office",
+
+
+
+  "infoInstalareOff16pro": "Ha még nincs telepítve az Office 2016 Professional Plus, javasoljuk, hogy először töltse le és telepítse innen:",
+  "pas1Off16pro": "1. Töltse le az Office telepítőfájlt a fenti linkről",
+  "pas2Off16pro": "2. Kattintson duplán vagy jobb gombbal a „ProPlus2016Retail.img” fájlra, majd válassza a Csatolás (Mount) lehetőséget",
+  "pas3Off16pro": "3. Kattintson duplán vagy jobb gombbal a „Setup” fájlra, majd válassza a Megnyitás lehetőséget",
+  "pas4Off16pro": "4. Várja meg, amíg a telepítés/kialakítás befejeződik",
+  "pas4Off16pro": "5. Kattintson a Start menüre, majd nyissa meg bármelyik Office-alkalmazást (pl. Word)",
+  "pas4Off16pro": "6. Várja meg, hogy megjelenjen az aktiválási képernyő",
+  "pas4Off16pro": "7. Írja be a vásárlás után kapott termékkulcsot, majd kattintson az Office aktiválása gombra",
+  "pas5Off16pro": "8. Kész, most már aktiválva van az Office",
+
+
+
+  "titlePhone": "Telefonos aktiválás",
+  "pas1OffPhone": "1. Ha egy hasonló ablak jelenik meg, válassza a „Telefonos aktiválás” lehetőséget. Ekkor megjelenik a telepítési azonosító és egy ingyenes telefonszám (egy automatizált rendszer).",
+  "pas2OffPhone": "2. Hívja fel a bot rendszert, és adja meg neki a telepítési azonosítót",
+  "pas3OffPhone": "3. A bot adni fog egy megerősítő azonosítót, amit ezen az ablakon írhat be",
+  "pas4OffPhone": "4. Kész, mostantól az Office teljesen aktiválva van.",
+
+
+
+
+
+
+
+  "line1w10-0xc004f050": "Hogyan javítható a 0xc004f050 hiba – Windows 10",
+  "line2w10-0xc004f050": "<strong>A 0xc004f050 hibakód</strong> akkor jelenik meg, ha egyik kiadásról a másikra frissít, vagy másik kiadásban próbálja használni a termékkulcsot. Először győződjön meg róla, hogy a Windows 10 Professional van telepítve, majd folytassa az aktiválást.",
+  "line3w10-0xc004f050": "<strong>A Windows 10 Pro letölthető és telepíthető</strong> ingyenesen a Microsoft hivatalos letöltési oldaláról:",
+  "line4w10-0xc004f050": "https://www.microsoft.com/en-us/software-download/windows10",
+  "line5w10-0xc004f050": "<strong>Hogyan végezzen tiszta telepítést:</strong>",
+  "line6w10-0xc004f050": "https://www.howtogeek.com/224342/how-to-clean-install-windows-10/",
+  "line7w10-0xc004f050": "A Windows 10 Professional telepítése után kövesse az alábbi lépéseket:",
+  "line8w10-0xc004f050": "Nyissa meg a Beállításokat",
+  "line9w10-0xc004f050": "Válassza a Frissítés és biztonság menüpontot",
+  "line10w10-0xc004f050": "Lépjen az Aktiválás pontra",
+  "line11w10-0xc004f050": "Kattintson az Aktiválás vagy Termékkulcs módosítása lehetőségre",
+  "line12w10-0xc004f050": "Írja be a vásárlás után kapott licenckulcsot",
+  "line13w10-0xc004f050": "Kész, a Windows most már teljesen aktiválva van",
+  "line14w10-0xc004f050": "<strong>Ha nem szeretne tiszta telepítést végezni, kövesse ezt a videó útmutatót a Windows 10 Home-ról Pro-ra frissítéshez, majd használja a termékkulcsát:</strong>",
+  "line15w10-0xc004f050": "Kövesse ezt a videó útmutatót:",
+  "line16w10-0xc004f050": "https://www.youtube.com/watch?v=F_jGe1kRBZo&feature=youtu.be",
+  "line17w10-0xc004f050": "Ezután aktiválja a Windowst a termékkulcsával",
+  "line18w10-0xc004f050": "<strong>Megjegyzés:</strong> Ez a megoldás csak abban az esetben működik, ha Windows 10 Home rendszere van. Ha hibát tapasztal a frissítés során, akkor tiszta telepítés szükséges.",
+
+
+
+  "line1w11-0xc004f050": "Hogyan javítható a 0xc004f050 hiba – Windows 11",
+  "line2w11-0xc004f050": "<strong>A 0xC004F050 hibakód</strong> akkor fordulhat elő, ha rossz kiadású Windowst telepített, ezért ellenőrizze, melyik kiadás van a gépén, mert ez a termékkulcs a Windows 11 Pro standard kiadásához való.",
+  "line3w11-0xc004f050": "<strong>A Windows kiadásának ellenőrzéséhez:</strong>",
+  "line4w11-0xc004f050": "Írja be a keresőbe: 'A számítógép adatai' (About your PC)",
+  "line5w11-0xc004f050": "Görgessen le a 'Windows specifikációk' részig.",
+  "line6w11-0xc004f050": "Nézze meg, mi van írva az 'Kiadás' (Edition) mellett.",
+  "line7w11-0xc004f050": "<strong>Hogyan javítható a 0xC004F050 hiba</strong>, ha Windows 11 Home kiadással rendelkezik:",
+  "line8w11-0xc004f050": "Írja be a keresőbe: 'Frissítések keresése' (Check for updates).",
+  "line9w11-0xc004f050": "Töltse le és telepítse az összes elérhető frissítést.",
+  "line10w11-0xc004f050": "Húzza ki az internetkapcsolatot a számítógépről.",
+  "line11w11-0xc004f050": "Írja be a generikus frissítőkulcsot: 'VK7JG-NPHTM-C97JM-9MPGT-3V66T'.",
+  "line12w11-0xc004f050": "Indítsa újra a gépet.",
+  "line13w11-0xc004f050": "A frissítés után írja be a vásárlás után kapott termékkulcsot az aktiváláshoz.",
+  "line14w11-0xc004f050": "Ha újraindítás után sem változott semmi, írja be ismét a termékkulcsot, és működnie kell.",
+  "line15w11-0xc004f050": "<strong>Megjegyzés:</strong> Ne törődjön a hibával, ha kulcsot ír be internetkapcsolat nélkül.",
+  "line16w11-0xc004f050": "<strong>Ha más kiadás van telepítve</strong> (pl. Windows 11 Pro N, Windows 11 Home Single Language, Windows 11 Enterprise stb.), akkor tiszta telepítésre van szükség:",
+  "line17w11-0xc004f050": "<strong>Windows 11 letöltési link:</strong>",
+  "line18w11-0xc004f050": "<strong>Tiszta telepítési útmutató (szöveges):</strong>",
+  "line19w11-0xc004f050": "<strong>Tiszta telepítési útmutató (videó):</strong>",
+
+
+
+
+
+  "line1w10-0xC004C008": "Hogyan javítható a 0xC004C008 hiba – Windows 10",
+  "line2w10-0xC004C008": "Ha a 0xC004C008 hiba jelenik meg, próbálja meg a telefonos aktiválást:",
+  "line3w10-0xC004C008": "Írja be a Windows keresősávjába: <strong>„SLUI.exe 04”</strong>.",
+  "line4w10-0xC004C008": "Válassza ki az országot, majd kattintson a <strong>Következő lépés</strong> gombra.",
+  "line5w10-0xC004C008": "Megjelenik a telepítési azonosító (pl. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
+  "line6w10-0xC004C008": "Hívja az ingyenes telefonszámot, és kap egy megerősítő kódot a Windows aktiválásához.",
+  "line7w10-0xC004C008": "Ha nem szeretné felhívni a számot, vagy ha a vonalak foglaltak, küldjön képernyőképet a telepítési azonosítóról, és mi felvesszük velük a kapcsolatot az Ön nevében, hogy megkapjuk a megerősítő kódot.",
+
+
+
+  "line1w11-0xC004C008": "Hogyan javítható a 0xC004C008 hiba – Windows 11",
+  "line2w11-0xC004C008": "Ha a 0xC004C008 hiba jelenik meg, próbálja meg a telefonos aktiválást:",
+  "line3w11-0xC004C008": "Írja be a Windows keresősávjába: <strong>„SLUI.exe 04”</strong>.",
+  "line4w11-0xC004C008": "Válassza ki az országot, majd kattintson a <strong>Következő lépés</strong> gombra.",
+  "line5w11-0xC004C008": "Megjelenik a telepítési azonosító (pl. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
+  "line6w11-0xC004C008": "Hívja az ingyenes telefonszámot, és kap egy megerősítő kódot a Windows aktiválásához.",
+  "line7w11-0xC004C008": "Ha nem szeretné felhívni a számot, vagy a vonalak foglaltak, küldjön nekünk képernyőképet a telepítési azonosítóról, és mi felvesszük velük a kapcsolatot az Ön nevében, hogy megszerezzük a megerősítő kódot.",
+
+
+
+
+  "line1w11-0xc0ea000a": "Hogyan javítható a 0xc0ea000a hiba – Windows 11",
+  "line2w11-0xc0ea000a": "<strong>A 0xc0ea000a hibakód az operációs rendszerhez köthető. A megoldáshoz kövesse az alábbi lépéseket:</strong>",
+  "line3w11-0xc0ea000a": "Nyissa meg a PowerShellt rendszergazdaként.",
+  "line4w11-0xc0ea000a": "Írja be ezt a parancsot: <code>slmgr -ipk Ide írja a termékkulcsot</code>",
+  "line5w11-0xc0ea000a": "Ezután írja be ezt a parancsot: <code>slmgr -ato</code>",
+  "line6w11-0xc0ea000a": "Indítsa újra a készüléket, hogy érvényesüljenek a változtatások, és a Windows sikeresen aktiválva lesz."
+}
