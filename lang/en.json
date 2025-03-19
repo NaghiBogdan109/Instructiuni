@@ -2,5 +2,225 @@
   "headerTitle": "This is the header",
   "mainText": "Welcome to the website! Here you will find...",
   "pictureOne": "A full-width picture linking to another page on the site",
-  "pictureTwo": "A second picture linking to another page on the site"
+  "pictureTwo": "A second picture linking to another page on the site",
+
+  "pagina-pornire": "<a href=\"https://ms-installation-guide.com\">Home Page</a>",
+  "instructiuni-windows": "Windows Instructions",
+  "instructiuni-office": "Office Instructions",
+  "erori-comune": "Common Windows Errors",
+
+
+  "infoInstalareWin10pro": "If you don't already have Windows 10 Professional installed, we recommend downloading and installing it first from here:",
+
+  "eroriTitleWin10pro": "Common errors during activation:",
+  "eroare1LinkWin10pro": "Click here to learn how to fix this error",
+  "eroare2LinkWin10pro": "Click here to learn how to fix this error",
+
+  "pas1Win10pro": "1. Click Start, go to Settings",
+  "pas2Win10pro": "2. Select Update & Security",
+  "pas3Win10pro": "3. Click the Activation tab on the left side",
+  "pas4Win10pro": "4. Click Activate or Change Product Key",
+  "pas5Win10pro": "5. Enter the license key you received after purchase",
+  "pas6Win10pro": "6. Done, now your Windows is fully activated and you will have access to Premium features.",
+
+
+
+  "infoInstalareWin10home": "If you don't already have Windows 10 Home installed, we recommend downloading and installing it first from here:",
+
+  "eroriTitleWin10home": "Common errors during activation:",
+  "eroare1LinkWin10home": "Click here to learn how to fix this error",
+  "eroare2LinkWin10home": "Click here to learn how to fix this error",
+
+  "pas1Win10home": "1. Click Start, go to Settings",
+  "pas2Win10home": "2. Select Update & Security",
+  "pas3Win10home": "3. Click the Activation tab on the left side",
+  "pas4Win10home": "4. Click Activate or Change Product Key",
+  "pas5Win10home": "5. Enter the license key you received after purchase",
+  "pas6Win10home": "6. Done, now your Windows is fully activated and you will have access to Premium features.",
+
+
+
+
+  "infoInstalareWin11pro": "If you don't already have Windows 11 Professional installed, we recommend downloading and installing it first from here:",
+
+  "eroriTitleWin11pro": "Common errors during activation:",
+  "eroare1LinkWin11pro": "Click here to learn how to fix this error",
+  "eroare2LinkWin11pro": "Click here to learn how to fix this error",
+  "eroare3LinkWin11pro": "Click here to learn how to fix this error",
+
+  "pas1Win11pro": "1. Click Start -> Go to Settings",
+  "pas2Win11pro": "2. Click System -> Activation",
+  "pas3Win11pro": "3. Click Activate or Change Product Key",
+  "pas4Win11pro": "4. Enter the license key you received after purchase",
+  "pas5Win11pro": "5. Done, now your Windows is fully activated and you will have access to Premium features.",
+
+
+
+
+  "infoInstalareWin11home": "If you don't already have Windows 11 Home installed, we recommend downloading and installing it first from here:",
+
+  "eroriTitleWin11home": "Common errors during activation:",
+  "eroare1LinkWin11home": "Click here to learn how to fix this error",
+  "eroare2LinkWin11home": "Click here to learn how to fix this error",
+  "eroare3LinkWin11home": "Click here to learn how to fix this error",
+
+  "pas1Win11home": "1. Click Start -> Go to Settings",
+  "pas2Win11home": "2. Click System -> Activation",
+  "pas3Win11home": "3. Click Activate or Change Product Key",
+  "pas4Win11home": "4. Enter the license key you received after purchase",
+  "pas5Win11home": "5. Done, now your Windows is fully activated and you will have access to Premium features.",
+
+
+
+
+
+
+
+
+
+
+
+
+  "infoInstalareOff24pro": "If you don't already have Office 2021 Professional Plus installed, we recommend downloading and installing it first from here:",
+
+  "pas1Off24pro": "1. Download the Office installer from the link above",
+  "pas2Off24pro": "2. Open the downloaded (.rar) file, then double-click the (.exe) file",
+  "pas3Off24pro": "3. Leave the default settings for the destination folder and click install",
+  "pas4Off24pro": "4. Wait for the installation to finish.",
+  "pas5Off24pro": "5. Open any Office application",
+  "pas6Off24pro": "6. Wait for the activation screen that will appear automatically.",
+  "pas7Off24pro": "7. Enter the product key you received after purchase, then click Activate Office",
+
+
+
+
+  
+  "infoInstalareOff21pro": "If you don't already have Office 2021 Professional Plus installed, we recommend downloading and installing it first from here:",
+
+  "pas1Off21pro": "1. Download the Office installer from the link above",
+  "pas2Off21pro": "2. Double click or right click the “ProPlus2021Retail.img” file, then click Mount",
+  "pas3Off21pro": "3. Double click or right click the “Setup” file, then click Open",
+  "pas4Off21pro": "7. Enter the product key you received after purchase, then click Activate Office",
+  "pas5Off21pro": "8. Done, now your Office is activated",
+
+
+
+  
+  "infoInstalareOff19pro": "If you don't already have Office 2019 Professional Plus installed, we recommend downloading and installing it first from here:",
+
+  "pas1Off19pro": "1. Download the Office installer from the link above",
+  "pas2Off19pro": "2. Double click or right click the “ProPlus2019Retail.img” file, then click Mount",
+  "pas3Off19pro": "3. Double click or right click the “Setup” file, then click Open",
+  "pas4Off19pro": "7. Enter the product key you received after purchase, then click Activate Office",
+  "pas5Off19pro": "8. Done, now your Office is activated",
+
+
+
+
+  "infoInstalareOff16pro": "If you don't already have Office 2016 Professional Plus installed, we recommend downloading and installing it first from here:",
+
+  "pas1Off16pro": "1. Download the Office installer from the link above",
+  "pas2Off16pro": "2. Double click or right click the “ProPlus2016Retail.img” file, then click Mount",
+  "pas3Off16pro": "3. Double click or right click the “Setup” file, then click Open",
+  "pas4Off16pro": "7. Enter the product key you received after purchase, then click Activate Office",
+  "pas5Off16pro": "8. Done, now your Office is activated",
+
+
+
+  
+  "titlePhone": "Phone Activation",
+  
+  "pas1OffPhone": "1. If you see a similar window, select “Activate by phone” and it will display the installation ID screen with a toll-free phone number (an automated bot system)",
+  "pas2OffPhone": "2. Call the automated bot system and provide the installation ID",
+  "pas3OffPhone": "3. The bot will give you a confirmation ID, which you can enter on the same screen",
+  "pas4OffPhone": "4. Done, now your Office is fully activated.",
+
+
+
+
+
+
+
+
+  "line1w10-0xc004f050": "How to fix error 0xc004f050 - Windows 10",
+  "line2w10-0xc004f050": "<strong>Error 0xc004f050</strong> appears if you try to upgrade from one edition to another or use the product key on a different edition. Therefore, first make sure you have Windows 10 Professional installed, then continue with activation.",
+  "line3w10-0xc004f050": "<strong>You can download and install Windows 10 Pro</strong> for free from the official Microsoft download page:",
+  "line4w10-0xc004f050": "https://www.microsoft.com/en-us/software-download/windows10",
+  "line5w10-0xc004f050": "<strong>How to perform a clean install:</strong>",
+  "line6w10-0xc004f050": "https://www.howtogeek.com/224342/how-to-clean-install-windows-10/",
+  "line7w10-0xc004f050": "After installing Windows 10 Professional, follow these steps:",
+  "line8w10-0xc004f050": "Go to Settings",
+  "line9w10-0xc004f050": "Select Update & Security",
+  "line10w10-0xc004f050": "Go to Activation",
+  "line11w10-0xc004f050": "Click Activate or Change Product Key",
+  "line12w10-0xc004f050": "Enter the license key you received after purchase",
+  "line13w10-0xc004f050": "Done, your Windows is now fully activated",
+  "line14w10-0xc004f050": "<strong>If you don't want to do a clean install, follow this video tutorial to upgrade from Windows 10 Home to Pro, then use your product key:</strong>",
+  "line15w10-0xc004f050": "Follow this video tutorial:",
+  "line16w10-0xc004f050": "https://www.youtube.com/watch?v=F_jGe1kRBZo&feature=youtu.be",
+  "line17w10-0xc004f050": "Then activate Windows with your product key",
+  "line18w10-0xc004f050": "<strong>Note:</strong> This solution is only valid if you have Windows 10 Home. If you encounter any error during the upgrade process, a fresh install is required.",
+
+
+
+
+  "line1w11-0xc004f050": "How to fix error 0xc004f050 - Windows 11",
+  "line2w11-0xc004f050": "<strong>Error 0xC004F050</strong> can occur if you have the wrong edition of Windows installed, so please check and confirm which edition you have, because this product key is for the standard Windows 11 Pro edition.",
+  "line3w11-0xc004f050": "<strong>To check your Windows edition:</strong>",
+  "line4w11-0xc004f050": "Type 'About your PC' in the Windows search bar.",
+  "line5w11-0xc004f050": "Scroll down to find the 'Windows Specifications' label.",
+  "line6w11-0xc004f050": "Check what is written next to 'Edition'.",
+  "line7w11-0xc004f050": "<strong>How to fix error 0xC004F050</strong> if you have standard Windows 11 Home:",
+  "line8w11-0xc004f050": "Type 'Check for updates' in the Windows search bar.",
+  "line9w11-0xc004f050": "Download and install all updates.",
+  "line10w11-0xc004f050": "Disconnect your device from the internet.",
+  "line11w11-0xc004f050": "Enter the generic upgrade key 'VK7JG-NPHTM-C97JM-9MPGT-3V66T'.",
+  "line12w11-0xc004f050": "Restart your device.",
+  "line13w11-0xc004f050": "After the upgrade completes, enter the product key you received after purchase to activate.",
+  "line14w11-0xc004f050": "If after restarting nothing changed, re-enter your product key and it should work.",
+  "line15w11-0xc004f050": "<strong>Note:</strong> Ignore any error that appears when entering the key while disconnected from the internet.",
+  "line16w11-0xc004f050": "<strong>If you have other installed editions</strong> such as Windows 11 Pro N, Windows 11 Home Single Language, Windows 11 Enterprise, or others, you will need to do a clean installation:",
+  "line17w11-0xc004f050": "<strong>Windows 11 download link:</strong>",
+  "line18w11-0xc004f050": "<strong>Clean Installation Guide (Text):</strong>",
+  "line19w11-0xc004f050": "<strong>Clean Installation Guide (Video):</strong>",
+
+
+
+
+
+
+
+
+
+  "line1w10-0xC004C008": "How to fix error 0xC004C008 - Windows 10",
+  "line2w10-0xC004C008": "If error 0xC004C008 appears, please proceed with phone activation:",
+  "line3w10-0xC004C008": "Type <strong>\"SLUI.exe 04\"</strong> into the Windows taskbar.",
+  "line4w10-0xC004C008": "Select your country, then click <strong>Next step</strong>.",
+  "line5w10-0xC004C008": "You will see the Installation ID (e.g. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
+  "line6w10-0xC004C008": "Call the toll-free number and you will be given a Confirmation ID to activate your Windows.",
+  "line7w10-0xC004C008": "If you do not want to call the toll-free number, or if their lines are busy, you can send us a screenshot of the Installation ID and we will contact them on your behalf to obtain the Confirmation ID for you.",
+
+
+
+  "line1w11-0xC004C008": "How to fix error 0xC004C008 - Windows 11",
+  "line2w11-0xC004C008": "If error 0xC004C008 appears, please proceed with phone activation:",
+  "line3w11-0xC004C008": "Type <strong>\"SLUI.exe 04\"</strong> into the Windows taskbar.",
+  "line4w11-0xC004C008": "Select your country, then click <strong>Next step</strong>.",
+  "line5w11-0xC004C008": "You will see the Installation ID (e.g. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
+  "line6w11-0xC004C008": "Call the toll-free number and you will be given a Confirmation ID to activate your Windows.",
+  "line7w11-0xC004C008": "If you do not want to call the toll-free number, or if their lines are busy, you can send us a screenshot of the Installation ID and we will contact them on your behalf to obtain the Confirmation ID for you.",
+
+
+
+
+
+
+
+  
+  "line1w11-0xc0ea000a": "How to fix error 0xc0ea000a - Windows 11",
+  "line2w11-0xc0ea000a": "<strong>Error 0xc0ea000a is related to the operating system. To fix it, you can follow the steps below:</strong>",
+  "line3w11-0xc0ea000a": "Open Powershell as administrator.",
+  "line4w11-0xc0ea000a": "Enter the following command: <code>slmgr -ipk Your Product Key Here</code>",
+  "line5w11-0xc0ea000a": "Then enter this command: <code>slmgr -ato</code>",
+  "line6w11-0xc0ea000a": "Restart your device for the changes to take effect, and your Windows will be successfully activated."
 }
