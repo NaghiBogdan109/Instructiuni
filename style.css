@@ -236,77 +236,93 @@ main h2 {
 
 
 
+/* ===================================
+   RESPONSIVE PENTRU DISPOZITIVE MOBILE
+   =================================== */
 
-/* ============================= */
-/*      CSS RESPONSIV (Mobile)   */
-/* ============================= */
-@media (max-width: 768px) {
-  /* Eliminăm lățimea fixă de 900px și ajustăm padding-ul */
+/* 
+   Se aplică până în ~480px (majoritatea telefoanelor mai mici).
+*/
+@media only screen and (max-width: 480px) {
+  /* Body */
   body {
-    max-width: 100%;
+    margin: 0;
     padding: 10px;
-    margin: 0 auto;
+    max-width: 100%;
   }
 
-  /* Ajustări generale de dimensiuni font */
-  header h1 {
-    font-size: 1.8em;
-  }
-
-  header a {
-    font-size: 1.8em;
-  }
-
-  .page-title h1 {
-    font-size: 1.8rem;
-  }
-
-  /* Meniul de limbi pe verticală, dacă dorești */
-  .language-nav ul {
+  /* HEADER */
+  header {
     flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
   }
 
-  /* main pe mobil deja e pe coloană, doar reducem gap */
+  header h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .language-nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .language-nav a {
+    font-size: 1.1em;
+    padding: 5px;
+  }
+
+  /* MAIN: carduri (img + text) pe un singur coloan */
   main {
     gap: 15px;
   }
 
-  .image-box {
-    margin: 0 auto;
-    border: 1px solid #ccc; /* subțiem bordura pe mobil */
+  .image-box img {
+    max-width: 100%;
+    height: auto;
   }
 
   .image-box span {
-    font-size: 0.9em;
+    font-size: 1.1em;
     padding: 10px;
   }
 
-  /* .pas devine coloană pe mobil, pentru a afișa imaginea sub text */
+  /* Pași instrucțiuni */
   .continut-instructiuni .pas {
     flex-direction: column;
     align-items: flex-start;
-    padding: 15px;
   }
 
-  /* Imaginea să nu depășească lățimea ecranului */
   .continut-instructiuni .pas img {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  /* .eroare-0xc004f050 adaptată pe mobil */
-  .eroare-0xc004f050 {
-    padding: 15px;
-    margin: 10px auto;
+    margin-top: 10px;
   }
 
-  .eroare-0xc004f050 p {
-    margin-bottom: 10px;
-    font-size: 0.95em; /* ușor mai mic pentru mobil */
+  .continut-instructiuni .pas p {
+    font-size: 1.05em;
+    line-height: 1.4em;
+  }
+
+  .page-title h1 {
+    font-size: 1.7em;
+    margin: 20px 0;
+    text-align: center;
   }
 }
 
+/* 
+   Al doilea prag, până în 768px, pentru telefoane/tablete mai mari 
+*/
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  /* Alte ajustări după preferințe */
+}
 
 
