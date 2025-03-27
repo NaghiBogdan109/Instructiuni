@@ -253,6 +253,10 @@ main h2 {
     font-size: 1.8em;
   }
 
+  header a {
+    font-size: 1.8em;
+  }
+
   .page-title h1 {
     font-size: 1.8rem;
   }
