@@ -318,10 +318,67 @@ main h2 {
    Al doilea prag, până în 768px, pentru telefoane/tablete mai mari 
 */
 @media only screen and (max-width: 768px) {
-  header h1 {
-    font-size: 2em;
+  /* HEADER */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 
+  header h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .language-nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .language-nav a {
+    font-size: 1.1em;
+    padding: 5px;
+  }
+
+  /* MAIN: carduri (img + text) pe un singur coloan */
+  main {
+    gap: 15px;
+  }
+
+  .image-box img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .image-box span {
+    font-size: 1.1em;
+    padding: 10px;
+  }
+
+  /* Pași instrucțiuni */
+  .continut-instructiuni .pas {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .continut-instructiuni .pas img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .continut-instructiuni .pas p {
+    font-size: 1.05em;
+    line-height: 1.4em;
+  }
+
+  .page-title h1 {
+    font-size: 1.7em;
+    margin: 20px 0;
+    text-align: center;
+  }
   /* Alte ajustări după preferințe */
 }
 
