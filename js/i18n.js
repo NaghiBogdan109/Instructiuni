@@ -7,7 +7,7 @@ function setLanguage(lang) {
   let jsonPath = "../lang";
 
   // Dacă URL-ul conține "/windows/" sau "/office/", ajustăm calea
-  if (pathName.includes("/windows/") || pathName.includes("/office/")) {
+  if (pathName.includes("/windows/") || pathName.includes("/office/") || pathName.includes("/adobe/")) {
     jsonPath = "../../lang";
   }
 
