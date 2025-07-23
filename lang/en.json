@@ -223,4 +223,26 @@
   "line4w11-0xc0ea000a": "Enter the following command: <code>slmgr -ipk Your Product Key Here</code>",
   "line5w11-0xc0ea000a": "Then enter this command: <code>slmgr -ato</code>",
   "line6w11-0xc0ea000a": "Restart your device for the changes to take effect, and your Windows will be successfully activated."
+
+
+
+
+
+  "infoInstalareAdobe2019":"If you do not already have Adobe Acrobat 2019 installed, we recommend downloading and installing it first from here:",
+"pas1AdobeAcrobat2019":"1. Visit the provided download link and save the file to your computer.",
+"pas2AdobeAcrobat2019":"2. Locate the downloaded file, usually in the “Downloads” folder.",
+"pas3AdobeAcrobat2019":"3. Double-click on “setup.exe” to begin the installation",
+"pas4AdobeAcrobat2019":"4. If the system requests permission, click “Yes” to continue.",
+"pas5AdobeAcrobat2019":"5. Enter the activation key you received with the product.",
+"pas6AdobeAcrobat2019":"6. Follow the on-screen instructions and wait for the installation to complete (this may take a few minutes).",
+
+"infoInstalareAdobe2020":"If you do not already have Adobe Acrobat 2020 installed, we recommend downloading and installing it first from here: ",
+"pas1AdobeAcrobat2020":"1. Visit the provided download link and save the file to your computer.",
+"pas2AdobeAcrobat2020":"2. Extract the ZIP file (right-click → “Extract here”). ",
+"pas3AdobeAcrobat2020":"3. Double-click on “setup.exe” to begin the installation ",
+"pas4AdobeAcrobat2020":"4. If the system requests permission, click “Yes” to continue. ",
+"pas5AdobeAcrobat2020":"5. Follow the on-screen instructions to complete the installation process. ",
+"pas6AdobeAcrobat2020":"6. After installation, enter the activation key received at purchase into the appropriate fields in the program. ",
+"pas7AdobeAcrobat2020":"7. After installation, open Adobe Acrobat Pro DC from the Start menu or the desktop icon. "
+
 }
