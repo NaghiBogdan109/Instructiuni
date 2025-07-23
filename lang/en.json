@@ -222,7 +222,7 @@
   "line3w11-0xc0ea000a": "Open Powershell as administrator.",
   "line4w11-0xc0ea000a": "Enter the following command: <code>slmgr -ipk Your Product Key Here</code>",
   "line5w11-0xc0ea000a": "Then enter this command: <code>slmgr -ato</code>",
-  "line6w11-0xc0ea000a": "Restart your device for the changes to take effect, and your Windows will be successfully activated."
+  "line6w11-0xc0ea000a": "Restart your device for the changes to take effect, and your Windows will be successfully activated.",
 
 
 
