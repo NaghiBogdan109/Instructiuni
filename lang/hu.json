@@ -208,7 +208,7 @@
   "line3w11-0xc0ea000a": "Nyissa meg a PowerShellt rendszergazdaként.",
   "line4w11-0xc0ea000a": "Írja be ezt a parancsot: <code>slmgr -ipk Ide írja a termékkulcsot</code>",
   "line5w11-0xc0ea000a": "Ezután írja be ezt a parancsot: <code>slmgr -ato</code>",
-  "line6w11-0xc0ea000a": "Indítsa újra a készüléket, hogy érvényesüljenek a változtatások, és a Windows sikeresen aktiválva lesz."
+  "line6w11-0xc0ea000a": "Indítsa újra a készüléket, hogy érvényesüljenek a változtatások, és a Windows sikeresen aktiválva lesz.",
 
 
 
