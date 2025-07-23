@@ -240,8 +240,32 @@
 
 
 
+  "infoInstalareAdobe2019":"Dacă nu aveți deja instalat Adobe Acrobat 2019, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:",
+  "pas1AdobeAcrobat2019":"1. Accesați link-ul de descărcare furnizat și salvați fișierul pe calculatorul dumneavoastră.",
+  "pas2AdobeAcrobat2019":"2. Localizați fișierul descărcat, de obicei în folderul „Descărcări” / „Downloads”.",
+  "pas3AdobeAcrobat2019":"3. Faceți dublu click pe „setup.exe” pentru a începe instalarea",
+  "pas4AdobeAcrobat2019":"4. Dacă vi se solicită permisiune de către sistem, apăsați „Da” pentru a continua.",
+  "pas5AdobeAcrobat2019":"5. Introduceți cheia de activare primită împreună cu produsul.",
+  "pas6AdobeAcrobat2019":"6. Urmați pașii indicați pe ecran și așteptați ca instalarea să se finalizeze (poate dura câteva minute).",
 
 
+   "infoInstalareAdobe2020":"Dacă nu aveți deja instalat Adobe Acrobat 2020, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici: ",
+   "pas1AdobeAcrobat2020":"1. Accesați link-ul de descărcare furnizat și salvați fișierul pe calculatorul dumneavoastră.",
+   "pas2AdobeAcrobat2020":"2. Extrageți fișierul ZIP (click dreapta → „Extrage aici”). ",
+   "pas3AdobeAcrobat2020":"3. Faceți dublu click pe „setup.exe” pentru a începe instalarea ",
+   "pas4AdobeAcrobat2020":"4. Dacă vi se solicită permisiune de către sistem, apăsați „Da” pentru a continua. ",
+   "pas5AdobeAcrobat2020":"5. Urmați instrucțiunile de pe ecran pentru a finaliza procesul de instalare. ",
+   "pas6AdobeAcrobat2020":"6. După instalare, introduceți cheia de activare primită la cumpărare în spațiile corespunzătoare din program. ",
+   "pas7AdobeAcrobat2020":"7. După instalare, deschideți Adobe Acrobat Pro DC din meniul Start sau din pictograma creată pe desktop. "
+  
+  
+  
+  
+  
+
+
+
+  
 
 
 
