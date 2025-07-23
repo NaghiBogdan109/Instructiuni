@@ -209,4 +209,26 @@
   "line4w11-0xc0ea000a": "Írja be ezt a parancsot: <code>slmgr -ipk Ide írja a termékkulcsot</code>",
   "line5w11-0xc0ea000a": "Ezután írja be ezt a parancsot: <code>slmgr -ato</code>",
   "line6w11-0xc0ea000a": "Indítsa újra a készüléket, hogy érvényesüljenek a változtatások, és a Windows sikeresen aktiválva lesz."
+
+
+
+
+
+  "infoInstalareAdobe2019":"Ha még nincs telepítve az Adobe Acrobat 2019, javasoljuk, hogy először töltse le és telepítse innen:",
+"pas1AdobeAcrobat2019":"1. Nyissa meg a letöltési linket, és mentse el a fájlt a számítógépére.",
+"pas2AdobeAcrobat2019":"2. Keresse meg a letöltött fájlt, általában a „Letöltések” mappában található.",
+"pas3AdobeAcrobat2019":"3. Kattintson duplán a „setup.exe” fájlra a telepítés elindításához.",
+"pas4AdobeAcrobat2019":"4. Ha a rendszer engedélyt kér, kattintson az „Igen” gombra a folytatáshoz.",
+"pas5AdobeAcrobat2019":"5. Írja be a termékhez kapott aktiváló kulcsot.",
+"pas6AdobeAcrobat2019":"6. Kövesse a képernyőn megjelenő utasításokat, és várja meg, amíg a telepítés befejeződik (ez néhány percig is eltarthat).",
+
+"infoInstalareAdobe2020":"Ha még nincs telepítve az Adobe Acrobat 2020, javasoljuk, hogy először töltse le és telepítse innen: ",
+"pas1AdobeAcrobat2020":"1. Nyissa meg a letöltési linket, és mentse el a fájlt a számítógépére.",
+"pas2AdobeAcrobat2020":"2. Csomagolja ki a ZIP fájlt (jobb klikk → „Kibontás ide”). ",
+"pas3AdobeAcrobat2020":"3. Kattintson duplán a „setup.exe” fájlra a telepítés elindításához. ",
+"pas4AdobeAcrobat2020":"4. Ha a rendszer engedélyt kér, kattintson az „Igen” gombra a folytatáshoz. ",
+"pas5AdobeAcrobat2020":"5. Kövesse a képernyőn megjelenő utasításokat a telepítés befejezéséhez. ",
+"pas6AdobeAcrobat2020":"6. A telepítés után írja be a vásárláskor kapott aktiváló kulcsot a megfelelő mezőkbe a programban. ",
+"pas7AdobeAcrobat2020":"7. A telepítés után nyissa meg az Adobe Acrobat Pro DC-t a Start menüből vagy az asztali ikonról. "
+
 }
