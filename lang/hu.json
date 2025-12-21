@@ -125,11 +125,17 @@
 
 
 
+
   "titlePhone": "Telefonos aktiválás",
-  "pas1OffPhone": "1. Ha egy hasonló ablak jelenik meg, válassza a „Telefonos aktiválás” lehetőséget. Ekkor megjelenik a telepítési azonosító és egy ingyenes telefonszám (egy automatizált rendszer).",
-  "pas2OffPhone": "2. Hívja fel a bot rendszert, és adja meg neki a telepítési azonosítót",
-  "pas3OffPhone": "3. A bot adni fog egy megerősítő azonosítót, amit ezen az ablakon írhat be",
-  "pas4OffPhone": "4. Kész, mostantól az Office teljesen aktiválva van.",
+
+  "pas1OffPhone": "1. Ha egy hasonló ablak jelenik meg, válassza a „Telefonos aktiválás” lehetőséget, majd megjelenik a telepítési azonosító képernyő egy díjmentes telefonszámmal, amely egy automatizált robotrendszer.",
+  "pas2OffPhone": "2. Másolja ki a 2. lépésben található telepítési azonosítót.",
+  "pas3OffPhone": "3. Látogassa meg az alábbi linken található weboldalt:",
+  "pas4OffPhone": "4. Adja meg az előzőleg kimásolt telepítési azonosítót a kijelölt mezőben.",
+  "pas5OffPhone": "5. Kattintson a „Get confirmation ID” gombra.",
+  "pas6OffPhone": "6. Kész! Most adja meg a kapott azonosítót a telefonos aktiválási ablakban, és a termék aktiválásra kerül.",
+
+
 
 
 
