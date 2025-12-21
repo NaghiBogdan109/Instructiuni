@@ -142,9 +142,11 @@
   "titlePhone":"Activare Telefonica",
   
   "pas1OffPhone": "1. Daca va apare o fereastră asemanatoare trebuie să selectați „Activați prin telefon” și apoi vă va afișa ecranul ID de instalare cu un număr de telefon gratuit care este un sistem robot automat",
-  "pas2OffPhone": "2. Apelați sistemul automat de bot și furnizați-i ID-ul de instalare",
-  "pas3OffPhone": "3. Botul vă va furniza un ID de confirmare pe care îl puteți introduce pe același ecran",
-  "pas4OffPhone": "4. Gata, acum Office-ul dvs. este complet activat.",
+  "pas2OffPhone": "2.Copiati ID-ul de instalare de pa pasul 2.",
+  "pas3OffPhone": "3.Accesati situl din linkul acesta:",
+  "pas4OffPhone": "4.Introduceti ID-ul de instalare copiat anterior in sectiunea hasurata.",
+  "pas5OffPhone": "5.Apsati pe Get confirmation ID.",
+  "pas6OffPhone": "6.Gata acuma instroduceti ID-ul primit in fereastra de activare telefonica, iar produsul se va activa.",
 
 
 
