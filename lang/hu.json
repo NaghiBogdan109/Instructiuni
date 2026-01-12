@@ -235,6 +235,38 @@
 "pas4AdobeAcrobat2020":"4. Ha a rendszer engedélyt kér, kattintson az „Igen” gombra a folytatáshoz. ",
 "pas5AdobeAcrobat2020":"5. Kövesse a képernyőn megjelenő utasításokat a telepítés befejezéséhez. ",
 "pas6AdobeAcrobat2020":"6. A telepítés után írja be a vásárláskor kapott aktiváló kulcsot a megfelelő mezőkbe a programban. ",
-"pas7AdobeAcrobat2020":"7. A telepítés után nyissa meg az Adobe Acrobat Pro DC-t a Start menüből vagy az asztali ikonról. "
+"pas7AdobeAcrobat2020":"7. A telepítés után nyissa meg az Adobe Acrobat Pro DC-t a Start menüből vagy az asztali ikonról. ",
+
+
+
+
+
+
+
+
+  "infoInstalareOff365": "Jelentkezzen be a Microsoft platformra az alábbi linken:",
+  "pas1OffOff365": "1. Jelentkezzen be a Microsoft platformra a fenti linken",
+
+  "pas2OffOff365": "Adja meg a kapott fiókot",
+  "pas2.1OffOff365": "Az „Email / Felhasználónév” mezőbe írja be az alábbi „Bejelentkezési adatok” részben található e-mail címet.",
+
+  "pas3OffOff365": "Változtassa meg a jelszót",
+  "pas3.1OffOff365": "Az első bejelentkezéskor új jelszó beállítására lesz szükség.",
+  "pas3.2OffOff365": "Kövesse a képernyőn megjelenő utasításokat, és válasszon biztonságos jelszót.",
+  "pas3.3OffOff365": "Az eredeti jelszó a módosítás után érvénytelen lesz.",
+
+  "pas4OffOff365": "Office 365 letöltése és telepítése",
+  "pas4.1OffOff365": "Bejelentkezés után keresse meg az „Alkalmazások telepítése” gombot a jobb felső sarokban.",
+  "pas4.2OffOff365": "Válassza ki a kívánt alkalmazást (Word, Excel, PowerPoint stb.), és töltse le a telepítőt.",
+  "pas4.3OffOff365": "Nyissa meg a letöltött fájlt, és kövesse a telepítési lépéseket.",
+
+  "pas5OffOff365": "Office aktiválása a számítógépen",
+  "pas5.1OffOff365": "A telepítés után nyissa meg a Wordöt (vagy az Excelt).",
+  "pas5.2OffOff365": "Ha bejelentkezést kér, használja újra ugyanazt a fiókot (email + új jelszó).",
+  "pas5.3OffOff365": "Ez a lépés aktiválja a licencet az eszközén.",
+
+  "pas6OffOff365": "Kész",
+  "pas6.1OffOff365": "Az Office most már aktiválva van és használatra kész."
+  
 
 }
