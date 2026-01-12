@@ -248,6 +248,36 @@
 "pas4AdobeAcrobat2020":"4. If the system requests permission, click “Yes” to continue. ",
 "pas5AdobeAcrobat2020":"5. Follow the on-screen instructions to complete the installation process. ",
 "pas6AdobeAcrobat2020":"6. After installation, enter the activation key received at purchase into the appropriate fields in the program. ",
-"pas7AdobeAcrobat2020":"7. After installation, open Adobe Acrobat Pro DC from the Start menu or the desktop icon. "
+"pas7AdobeAcrobat2020":"7. After installation, open Adobe Acrobat Pro DC from the Start menu or the desktop icon. ",
+
+
+
+
+
+
+  "infoInstalareOff365": "Log in to the Microsoft platform using the following link:",
+  "pas1OffOff365": "1. Log in to the Microsoft platform using the link above",
+
+  "pas2OffOff365": "Enter the provided account",
+  "pas2.1OffOff365": "In “Email / Username”, enter the email address from the “Login details” section below.",
+
+  "pas3OffOff365": "Change the password",
+  "pas3.1OffOff365": "At the first login, you will be asked to set a new password.",
+  "pas3.2OffOff365": "Follow the on-screen instructions and choose a secure password known only to you.",
+  "pas3.3OffOff365": "The initial password will no longer be valid after the change.",
+
+  "pas4OffOff365": "Download and install Office 365",
+  "pas4.1OffOff365": "After logging in, look for the “Install apps” button in the top right corner.",
+  "pas4.2OffOff365": "Choose the desired application (Word, Excel, PowerPoint, etc.) and download the installer.",
+  "pas4.3OffOff365": "Open the downloaded file and follow the installation steps until completion.",
+
+  "pas5OffOff365": "Activate Office on your PC",
+  "pas5.1OffOff365": "After installation, open Word (or Excel).",
+  "pas5.2OffOff365": "If authentication is required, log in again using the same account (email + new password).",
+  "pas5.3OffOff365": "This step activates the license on your device.",
+
+  "pas6OffOff365": "Done",
+  "pas6.1OffOff365": "Office is now activated and ready to use."
+  
 
 }
