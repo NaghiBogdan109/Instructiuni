@@ -258,12 +258,36 @@
    "pas4AdobeAcrobat2020":"4. Dacă vi se solicită permisiune de către sistem, apăsați „Da” pentru a continua. ",
    "pas5AdobeAcrobat2020":"5. Urmați instrucțiunile de pe ecran pentru a finaliza procesul de instalare. ",
    "pas6AdobeAcrobat2020":"6. După instalare, introduceți cheia de activare primită la cumpărare în spațiile corespunzătoare din program. ",
-   "pas7AdobeAcrobat2020":"7. După instalare, deschideți Adobe Acrobat Pro DC din meniul Start sau din pictograma creată pe desktop. "
+   "pas7AdobeAcrobat2020":"7. După instalare, deschideți Adobe Acrobat Pro DC din meniul Start sau din pictograma creată pe desktop. ",
   
   
   
   
   
+   
+  "pas1OffOff365": "1. Conectați-vă la platforma Microsoft de pe linkul de mai sus",
+
+  "pas2OffOff365": "Introduceți contul primit",
+  "pas2.1OffOff365": "În „Email / Nume utilizator” introduceți adresa de e-mail din secțiunea „Detalii de conectare” de mai jos.",
+
+  "pas3OffOff365": "Schimbați parola",
+  "pas3.1OffOff365": "La prima conectare, vi se va solicita să setați o parolă nouă.",
+  "pas3.2OffOff365": "Urmați instrucțiunile de pe ecran și alegeți o parolă sigură, cunoscută doar de dumneavoastră.",
+  "pas3.3OffOff365": "Parola inițială nu va mai fi valabilă după modificare.",
+
+  "pas4OffOff365": "Descărcați și instalați Office 365",
+  "pas4.1OffOff365": "După autentificare, căutați butonul „Instalare aplicații” din colțul din dreapta sus.",
+  "pas4.2OffOff365": "Alegeți aplicația dorită (Word, Excel, PowerPoint etc.) și descărcați fișierul de instalare.",
+  "pas4.3OffOff365": "Deschideți fișierul descărcat și urmați pașii de instalare până la final.",
+
+  "pas5OffOff365": "Activați Office pe PC",
+  "pas5.1OffOff365": "După instalare, deschideți Word (sau Excel).",
+  "pas5.2OffOff365": "Dacă vi se solicită autentificarea, introduceți din nou același cont (adresa de e-mail + parola nouă).",
+  "pas5.3OffOff365": "Acest pas activează licența pe dispozitivul dumneavoastră.",
+
+  "pas6OffOff365": "Gata",
+  "pas6.1OffOff365": "Office este acum activ și gata de utilizare."
+
 
 
 
