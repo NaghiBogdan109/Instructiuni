@@ -11,12 +11,12 @@
 <main>
  
   <div class="page-title">
-    <h1 data-i18n="instructiuni-adobe">Instrucțiuni Adobe Acrobat</h1>
+    <h1 data-i18n="instructiuni-visual-studio">Instrucțiuni Visual Studio</h1>
 </div>
 
-  <!-- 1. Adobe Acrobat 2019-->
-  <a href="./adobe/adobe_acrobat_2019.html" class="image-box">
-    <img src="../images/adobe-banner-2019.jpg" alt="Adobe Acrobat 2019">
+  <!-- 1. Visual Studio 2026-->
+  <a href="./visual-studio/visual_studio_2026_pro.html" class="image-box">
+    <img src="../images/Banner_Visual_Studio_2026.jpg" alt="Visual Studio 2026">
     <span>Adobe Acrobat 2019</span>
   </a>
 
