@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pagina Visual Studio</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div id="header-include"></div>
+  <hr />
+<main>
+ 
+  <div class="page-title">
+    <h1 data-i18n="instructiuni-adobe">Instrucțiuni Adobe Acrobat</h1>
+</div>
+
+  <!-- 1. Adobe Acrobat 2019-->
+  <a href="./adobe/adobe_acrobat_2019.html" class="image-box">
+    <img src="../images/adobe-banner-2019.jpg" alt="Adobe Acrobat 2019">
+    <span>Adobe Acrobat 2019</span>
+  </a>
+
+  <!-- 2. Adobe Acrobat 2020 -->
+  <a href="./adobe/adobe_acrobat_2020.html" class="image-box">
+    <img src="../images/adobe-banner-2020.jpg" alt="Adobe Acrobat 2020">
+    <span>Adobe Acrobat 2020</span>
+  </a>  
+</main>
+ 
+
+  <script src="../js/include-header.js"></script>
+</body>
+</html>
