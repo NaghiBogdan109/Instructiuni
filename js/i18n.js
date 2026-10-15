@@ -2,6 +2,12 @@ function setLanguage(lang) {
   // 1. Salvăm limba selectată
   localStorage.setItem('language', lang);
 
+  // Marcam limba activa in meniu si in documentul paginii
+  document.documentElement.lang = lang === 'gr' ? 'el' : lang;
+  document.querySelectorAll('.language-nav a').forEach(a => {
+    a.setAttribute('aria-current', a.getAttribute('href') === '?lang=' + lang ? 'true' : 'false');
+  });
+
   // 2. Determinăm calea corectă pentru fișierul JSON
   const pathName = window.location.pathname; 
   let jsonPath = "../lang";

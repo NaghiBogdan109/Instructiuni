@@ -1,385 +1,609 @@
-/* Reset minim */
+/* =========================================================
+   ms-installation-guide.com — tema
+   Ghid citit cu fereastra de activare deschisa alaturi:
+   calm, lizibil, pasii legati printr-o linie verticala.
+   ========================================================= */
+
+:root {
+  --ink: #13213a;        /* text, banda de titlu */
+  --ink-soft: #4a5873;   /* text secundar */
+  --bg: #edf1f6;         /* fundal pagina */
+  --surface: #ffffff;    /* carduri */
+  --line: #d5dde8;       /* contururi */
+  --accent: #1d5fd1;     /* linkuri, limba activa */
+  --accent-dark: #1549a6;
+  --ok: #17865a;         /* ultimul pas: activat */
+  --warn: #b4690e;       /* erori */
+  --warn-bg: #fdf6ec;
+
+  --font-display: "Geologica", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", Consolas, monospace;
+
+  --radius: 14px;
+  --page: 960px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* BODY */
-body {
-  font-family: Arial, sans-serif;
-  color: #333;
-  background-color: #f7f7f7;
-  margin: 0 auto;
-  max-width: 900px; /* Lățimea maximă a paginii */
-  padding: 20px;
+html {
+  -webkit-text-size-adjust: 100%;
 }
 
-/* HEADER */
+body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--bg);
+  padding: 0 16px 64px;
+}
+
+/* tot continutul sta pe o coloana centrata */
+body > * {
+  max-width: var(--page);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
+a:hover {
+  color: var(--accent-dark);
+}
+
+a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1px 6px;
+}
+
+/* linia veche de sub header: headerul are acum bordura lui */
+body > hr {
+  display: none;
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+#header-include {
+  max-width: none;
+  margin: 0 -16px 32px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
 header {
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: 14px 16px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  /* poți pune un background color dacă vrei:
-     background-color: #eee; 
-  */
+  gap: 12px 24px;
+  flex-wrap: wrap;
 }
 
-/* Titlu principal */
 header h1 {
-  font-size: 2em;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-right: auto;
 }
 
-/* Meniul de limbi (NAV) */
+header h1 a {
+  color: var(--ink);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header h1 a::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: var(--ink) url("/favicon.png") center / 20px no-repeat;
+  flex: none;
+}
+
+header h1 a:hover {
+  color: var(--accent);
+}
+
+header .contact a {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+
+header .contact a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* limbile: control segmentat */
 .language-nav ul {
   display: flex;
-  list-style: none;   /* elimină bullet-urile */
-  gap: 20px;          /* spațiu orizontal între elemente */
+  list-style: none;
+  background: var(--bg);
+  border-radius: 999px;
+  padding: 3px;
+  gap: 2px;
 }
 
 .language-nav a {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
-  transition: color 0.2s ease;
-}
-
-/* Efect la hover pe linkurile de limbă */
-.language-nav a:hover {
-  color: #0056b3; /* o nuanță mai închisă de albastru */
-}
-
-/* Linie orizontală de sub header (hr) */
-hr {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  border: none;
-  border-top: 1px solid #ccc;
-}
-
-/* MAIN */
-main {
-  display: flex;
-  flex-direction: column; /* Elementele (imaginile) vor fi afișate pe verticală */
-  gap: 20px; /* Spațiu între elemente */
-}
-
-/* Titlul de la interiorul paginii */
-main h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 1.5em;
-}
-
-/* Card/link (div) pentru imagine + text */
-.image-box {
   display: block;
-  background-color: white;  
-  border: 2px solid #ccc;   
-  border-radius: 10px;       
-  text-decoration: none;    
-  color: inherit;           
-  overflow: hidden;         
-  transition: transform 0.2s ease;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
-/* Efect la hover pentru card */
+.language-nav a:hover {
+  color: var(--ink);
+  background: rgba(19, 33, 58, 0.06);
+}
+
+.language-nav a[aria-current="true"] {
+  background: var(--surface);
+  color: var(--accent);
+  box-shadow: 0 1px 3px rgba(19, 33, 58, 0.15);
+}
+
+/* =========================================================
+   TITLURI
+   ========================================================= */
+
+/* banda de titlu a produsului: semnatura temei este masca
+   cheii de produs, in fundal, ca pe ecranul de activare */
+.page-title {
+  position: relative;
+  overflow: hidden;
+  background: var(--ink);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 40px 36px 36px;
+  margin-bottom: 24px;
+}
+
+.page-title::after {
+  content: "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX";
+  position: absolute;
+  right: -40px;
+  bottom: 14px;
+  font-family: var(--font-mono);
+  font-size: 1.35rem;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.07);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.page-title h1 {
+  position: relative;
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 4.5vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+/* subtitlurile din pagina (Activare Online / Telefonica) */
+.page-title.section-title {
+  background: none;
+  color: var(--ink);
+  padding: 0;
+  margin-top: 48px;
+  margin-bottom: 20px;
+  border-radius: 0;
+  overflow: visible;
+}
+
+.page-title.section-title::after {
+  content: none;
+}
+
+.page-title.section-title h1 {
+  font-size: 1.45rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.page-title.section-title h1::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+/* =========================================================
+   PAGINI DE CATEGORIE (carduri cu banner)
+   ========================================================= */
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+main > h2,
+main > .page-title {
+  grid-column: 1 / -1;
+}
+
+main > h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 8px 0 4px;
+}
+
+main > .page-title {
+  margin-bottom: 4px;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--ink);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
 .image-box:hover {
-  transform: scale(1.01);
-  border-color: #007bff;
+  color: var(--ink);
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(19, 33, 58, 0.12);
+  transform: translateY(-2px);
 }
 
-/* Imaginea din interiorul cardului */
+.image-box:focus-visible {
+  outline-offset: 4px;
+}
+
 .image-box img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-/* Textul din interiorul cardului */
 .image-box span {
-  display: block;
-  padding: 15px;
-  font-size: 1em;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  font-weight: 600;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Header lat cu titlu centrat */
-.page-title {
-  background-color: #f2f2f2;
-  padding: 40px 0;
-  text-align: center;
-  margin-bottom: 20px;
-  border-radius: 8px;
+.image-box span::after {
+  content: "→";
+  color: var(--accent);
+  transition: transform 0.15s ease;
 }
 
-.page-title h1 {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
+.image-box:hover span::after {
+  transform: translateX(3px);
 }
 
-/* Div de informații inițiale despre instalare */
+/* =========================================================
+   PAGINI DE PRODUS
+   ========================================================= */
+
+/* descarcarea: callout albastru */
 .info-instalare {
-  background-color: #f8f9fc;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 18px 22px;
   margin-bottom: 20px;
 }
 
-/* Div pentru lista de erori comune */
+/* lista de limbi pentru kitul Office 2024 */
+.info-instalare .info-instalare {
+  border: none;
+  padding: 14px 0 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.info-instalare .info-instalare a {
+  font-size: 0.88rem;
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+
+.info-instalare .info-instalare a:hover {
+  border-color: var(--accent);
+}
+
+/* erori frecvente: callout portocaliu */
 .erori-comune {
-  background-color: #fff;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  padding: 20px 25px;
+  background: var(--warn-bg);
+  border: 1px solid #f0dcc0;
+  border-left: 4px solid var(--warn);
+  border-radius: var(--radius);
+  padding: 18px 22px;
   margin-bottom: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
-/* Div general pentru conținutul instrucțiunilor */
+.erori-comune h2 {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.erori-comune ul {
+  list-style: none;
+  font-family: var(--font-mono);
+  font-size: 0.92rem;
+}
+
+.erori-comune li {
+  padding: 4px 0;
+}
+
+.erori-comune li a {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+}
+
+/* pasii: carduri legate printr-o linie verticala */
 .continut-instructiuni {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
+  padding-left: 30px;
+  margin-top: 8px;
 }
 
-/* Fiecare pas este un mic "card" */
+.continut-instructiuni::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 28px;
+  bottom: 28px;
+  width: 2px;
+  background: var(--line);
+}
+
+/* paginile Windows au un al doilea bloc de pasi in interiorul primului */
+.continut-instructiuni .continut-instructiuni {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.continut-instructiuni .continut-instructiuni::before {
+  content: none;
+}
+
 .continut-instructiuni .pas {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px 22px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;   /* Aliniere verticală la mijloc */
-  gap: 15px;            /* Spațiu între text și imagine */
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  padding: 20px 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
 }
 
-/* Imaginea din fiecare pas */
+/* nodul de pe linie, in dreptul fiecarui pas */
+.continut-instructiuni .pas::before {
+  content: "";
+  position: absolute;
+  left: -29px;
+  top: 24px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 3px solid var(--accent);
+}
+
+/* ultimul pas e cel in care produsul e activat */
+.continut-instructiuni .pas:last-child::before {
+  background: var(--ok);
+  border-color: var(--ok);
+}
+
+.continut-instructiuni .pas p {
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
 .continut-instructiuni .pas img {
-  width: 550px;   /* Ajustează lățimea dorită */
-  border-radius: 15px; 
-  /* Poti adăuga box-shadow etc. */
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
 }
 
+/* linkul catre GetCID: buton */
+.btn-cid {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+}
 
+.btn-cid::after {
+  content: "↗";
+}
 
+.btn-cid:hover {
+  background: var(--accent-dark);
+  color: #fff;
+}
 
+/* =========================================================
+   PAGINI DE EROARE
+   ========================================================= */
 
-
-
-
-
-
-
-/* Containerul principal pentru eroare 0xc004f050 */
 .eroare-0xc004f050 {
-  background-color: #fff;          /* Fundal alb pentru contrast */
-  border: 2px solid #ccc;         /* Linia de contur (gri deschis) */
-  border-radius: 10px;            /* Colțuri rotunjite */
-  padding: 20px 30px;             /* Spațiere interioară */
-  margin: 20px 0;                 /* Spațiere față de elementele din jur */
-  box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Umbră subtilă pentru efect de card */
-  max-width: 900px;               /* Lățime maximă, ca restul layoutului */
-  margin-left: auto;              /* Centrare orizontală */
-  margin-right: auto;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  margin-bottom: 36px;
 }
 
-/* Paragrafele din interiorul containerului */
 .eroare-0xc004f050 p {
-  margin-bottom: 15px;            /* Spațiu între linii */
-  line-height: 1.5;               /* Înălțime linie ușor mărită pentru lizibilitate */
-}
-
-/* Stil suplimentar pentru link-urile din text */
-.eroare-0xc004f050 a {
-  color: #007bff;                 /* Albastru pentru linkuri */
-  text-decoration: none;          /* Fără subliniere implicită */
-  transition: color 0.2s ease;
+  margin-bottom: 12px;
 }
 
 .eroare-0xc004f050 ul {
-    padding-left: 20px;  /* Creează indentare pentru tab */
-    margin-bottom: 10px; /* Adaugă spațiu între liste */
+  padding-left: 22px;
+  margin-bottom: 16px;
 }
 
-.eroare-0xc004f050 ul li {
-    margin-bottom: 5px;  /* Adaugă spațiu între fiecare element din listă */
+.eroare-0xc004f050 li {
+  margin-bottom: 8px;
+  padding-left: 4px;
 }
 
-/* Efect la hover pe link */
-.eroare-0xc004f050 a:hover {
-  color: #0056b3;                 /* O nuanță mai închisă la hover */
+.eroare-0xc004f050 li::marker {
+  color: var(--accent);
 }
 
+/* =========================================================
+   MOBIL
+   ========================================================= */
 
-
-
-
-
-/* ===================================
-   RESPONSIVE PENTRU DISPOZITIVE MOBILE
-   =================================== */
-
-/* 
-   Se aplică până în ~480px (majoritatea telefoanelor mai mici).
-*/
-@media only screen and (max-width: 414px) {
-  /* Body */
+@media (max-width: 720px) {
   body {
-    margin: 0;
-    padding: 10px;
-    max-width: 100%;
+    font-size: 16px;
   }
 
-  /* HEADER */
+  /* pe telefon headerul ar ocupa un sfert din ecran daca ar ramane fix */
+  #header-include {
+    position: static;
+  }
+
   header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    padding: 12px 16px;
   }
 
-  header h1 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    text-align: center;
+  header .contact {
+    order: 3;
+    width: 100%;
+  }
+
+  /* limbile: un rand care se poate derula orizontal */
+  .language-nav {
+    order: 2;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
   }
 
   .language-nav ul {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
+    width: max-content;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .page-title {
+    padding: 28px 22px 26px;
+  }
+
+  .page-title {
+    padding-top: 40px;
+  }
+
+  .page-title::after {
+    font-size: 0.8rem;
+    top: 12px;
+    bottom: auto;
+    right: auto;
+    left: 22px;
   }
 
   .language-nav a {
-    font-size: 1.8em;
-    padding: 5px;
+    padding: 5px 9px;
   }
 
-  /* MAIN: carduri (img + text) pe un singur coloan */
-  main {
-    gap: 15px;
+  .continut-instructiuni {
+    padding-left: 22px;
   }
 
-  .image-box img {
-    max-width: 100%;
-    height: auto;
+  .continut-instructiuni::before {
+    left: 5px;
   }
 
-  .image-box span {
-    font-size: 1.1em;
-    padding: 10px;
-  }
-
-  /* Pași instrucțiuni */
   .continut-instructiuni .pas {
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 16px;
   }
 
-  .continut-instructiuni .pas img {
-    width: 100%;
-    margin-top: 10px;
+  .continut-instructiuni .pas::before {
+    left: -23px;
+    width: 14px;
+    height: 14px;
   }
 
-  .continut-instructiuni .pas p {
-    font-size: 1.05em;
-    line-height: 1.4em;
-  }
-
-  .page-title h1 {
-    font-size: 1.7em;
-    margin: 20px 0;
-    text-align: center;
+  .eroare-0xc004f050 {
+    padding: 20px;
   }
 }
 
-/* 
-   Al doilea prag, până în 768px, pentru telefoane/tablete mai mari 
-*/
-@media only screen and (max-width: 768px) {
-  /* HEADER */
-  header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
   }
-
-  header h1 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  .language-nav ul {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .language-nav a {
-    font-size: 1.1em;
-    padding: 5px;
-  }
-
-  /* MAIN: carduri (img + text) pe un singur coloan */
-  main {
-    gap: 15px;
-  }
-
-  .image-box img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .image-box span {
-    font-size: 1.1em;
-    padding: 10px;
-  }
-
-  /* Pași instrucțiuni */
-  .continut-instructiuni .pas {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .continut-instructiuni .pas img {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .continut-instructiuni .pas p {
-    font-size: 1.05em;
-    line-height: 1.4em;
-  }
-
-  .page-title h1 {
-    font-size: 1.7em;
-    margin: 20px 0;
-    text-align: center;
-  }
-  /* Alte ajustări după preferințe */
 }
-
-
