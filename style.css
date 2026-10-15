@@ -185,28 +185,31 @@ header .contact a:hover {
    TITLURI
    ========================================================= */
 
-/* banda de titlu a produsului: semnatura temei este masca
-   cheii de produs, in fundal, ca pe ecranul de activare */
+/* banda de titlu a produsului: semnatura temei este campul
+   cheii de produs (5 casute + bifa verde), ca in fereastra
+   de activare Windows */
 .page-title {
   position: relative;
   overflow: hidden;
-  background: var(--ink);
+  background:
+    radial-gradient(520px 220px at 88% -10%, rgba(29, 95, 209, 0.55), transparent 70%),
+    radial-gradient(360px 160px at 0% 120%, rgba(23, 134, 90, 0.18), transparent 70%),
+    var(--ink);
   color: #fff;
   border-radius: var(--radius);
-  padding: 40px 36px 36px;
+  padding: 40px 360px 38px 36px;
   margin-bottom: 24px;
 }
 
 .page-title::after {
-  content: "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX";
+  content: "";
   position: absolute;
-  right: -40px;
-  bottom: 14px;
-  font-family: var(--font-mono);
-  font-size: 1.35rem;
-  letter-spacing: 0.12em;
-  color: rgba(255, 255, 255, 0.07);
-  white-space: nowrap;
+  right: 36px;
+  top: 50%;
+  width: 300px;
+  height: 36px;
+  margin-top: -18px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='36' viewBox='0 0 300 36'%3E%3Crect x='1' y='1' width='46' height='34' rx='8' fill='%23fff' fill-opacity='.05' stroke='%23fff' stroke-opacity='.22'/%3E%3Ccircle cx='8' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='16' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='24' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='32' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='40' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Crect x='55' y='1' width='46' height='34' rx='8' fill='%23fff' fill-opacity='.05' stroke='%23fff' stroke-opacity='.22'/%3E%3Ccircle cx='62' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='70' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='78' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='86' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='94' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Crect x='109' y='1' width='46' height='34' rx='8' fill='%23fff' fill-opacity='.05' stroke='%23fff' stroke-opacity='.22'/%3E%3Ccircle cx='116' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='124' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='132' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='140' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='148' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Crect x='163' y='1' width='46' height='34' rx='8' fill='%23fff' fill-opacity='.05' stroke='%23fff' stroke-opacity='.22'/%3E%3Ccircle cx='170' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='178' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='186' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='194' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='202' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Crect x='217' y='1' width='46' height='34' rx='8' fill='%23fff' fill-opacity='.05' stroke='%23fff' stroke-opacity='.22'/%3E%3Ccircle cx='224' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='232' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='240' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='248' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='256' cy='18' r='2.4' fill='%23fff' fill-opacity='.6'/%3E%3Ccircle cx='283' cy='18' r='15' fill='%2317865a'/%3E%3Cpath d='M276 18.5l4.6 4.5 8.6-9' fill='none' stroke='%23fff' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
   pointer-events: none;
 }
 
@@ -523,6 +526,22 @@ main > .page-title {
    MOBIL
    ========================================================= */
 
+/* tablete: campul cheii trece deasupra titlului */
+@media (max-width: 900px) {
+  .page-title {
+    padding: 76px 36px 36px;
+  }
+
+  .page-title::after {
+    top: 32px;
+    right: auto;
+    left: 36px;
+    margin-top: 0;
+    width: 240px;
+    height: 29px;
+  }
+}
+
 @media (max-width: 720px) {
   body {
     font-size: 16px;
@@ -560,19 +579,16 @@ main > .page-title {
   }
 
   .page-title {
-    padding: 28px 22px 26px;
-  }
-
-  .page-title {
-    padding-top: 40px;
+    padding: 66px 22px 26px;
   }
 
   .page-title::after {
-    font-size: 0.8rem;
-    top: 12px;
-    bottom: auto;
+    top: 24px;
     right: auto;
     left: 22px;
+    margin-top: 0;
+    width: 200px;
+    height: 24px;
   }
 
   .language-nav a {
