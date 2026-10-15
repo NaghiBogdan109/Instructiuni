@@ -7,6 +7,8 @@
   "pagina-pornire": "<a href=\"https://ms-installation-guide.com\">Home Page</a>",
   "instructiuni-windows": "Windows Instructions",
   "instructiuni-office": "Office Instructions",
+  "instructiuni-adobe": "Adobe Acrobat Instructions",
+  "instructiuni-visual-studio": "Visual Studio Instructions",
   "erori-comune": "Common Windows Errors",
 
 
@@ -100,8 +102,11 @@
   "pas1Off21pro": "1. Download the Office installer from the link above",
   "pas2Off21pro": "2. Double click or right click the “ProPlus2021Retail.img” file, then click Mount",
   "pas3Off21pro": "3. Double click or right click the “Setup” file, then click Open",
-  "pas4Off21pro": "7. Enter the product key you received after purchase, then click Activate Office",
-  "pas5Off21pro": "8. Done, now your Office is activated",
+  "pas4Off21pro": "4. Wait for the installation/configuration to finish",
+  "pas5Off21pro": "5. Click Start and open any Office application (for example, Word)",
+  "pas6Off21pro": "6. Wait for the activation screen to appear",
+  "pas7Off21pro": "7. Enter the product key you received after purchase, then click Activate Office",
+  "pas8Off21pro": "8. Done, now your Office is activated",
 
 
 
@@ -111,8 +116,11 @@
   "pas1Off19pro": "1. Download the Office installer from the link above",
   "pas2Off19pro": "2. Double click or right click the “ProPlus2019Retail.img” file, then click Mount",
   "pas3Off19pro": "3. Double click or right click the “Setup” file, then click Open",
-  "pas4Off19pro": "7. Enter the product key you received after purchase, then click Activate Office",
-  "pas5Off19pro": "8. Done, now your Office is activated",
+  "pas4Off19pro": "4. Wait for the installation/configuration to finish",
+  "pas5Off19pro": "5. Click Start and open any Office application (for example, Word)",
+  "pas6Off19pro": "6. Wait for the activation screen to appear",
+  "pas7Off19pro": "7. Enter the product key you received after purchase, then click Activate Office",
+  "pas8Off19pro": "8. Done, now your Office is activated",
 
 
 
@@ -122,8 +130,11 @@
   "pas1Off16pro": "1. Download the Office installer from the link above",
   "pas2Off16pro": "2. Double click or right click the “ProPlus2016Retail.img” file, then click Mount",
   "pas3Off16pro": "3. Double click or right click the “Setup” file, then click Open",
-  "pas4Off16pro": "7. Enter the product key you received after purchase, then click Activate Office",
-  "pas5Off16pro": "8. Done, now your Office is activated",
+  "pas4Off16pro": "4. Wait for the installation/configuration to finish",
+  "pas5Off16pro": "5. Click Start and open any Office application (for example, Word)",
+  "pas6Off16pro": "6. Wait for the activation screen to appear",
+  "pas7Off16pro": "7. Enter the product key you received after purchase, then click Activate Office",
+  "pas8Off16pro": "8. Done, now your Office is activated",
 
 
 
@@ -204,16 +215,23 @@
   "line5w10-0xC004C008": "You will see the Installation ID (e.g. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
   "line6w10-0xC004C008": "Call the toll-free number and you will be given a Confirmation ID to activate your Windows.",
   "line7w10-0xC004C008": "If you do not want to call the toll-free number, or if their lines are busy, you can send us a screenshot of the Installation ID and we will contact them on your behalf to obtain the Confirmation ID for you.",
+  "line8w10-0xC004C008": "<strong>Or get the Confirmation ID online, without calling:</strong>",
+  "line9w10-0xC004C008": "Go to <a href=\"https://cid.ms-installation-guide.com/\" target=\"_blank\">cid.ms-installation-guide.com</a> and enter the Installation ID shown in the activation window.",
+  "line10w10-0xC004C008": "Click <strong>Get confirmation ID</strong> to obtain the Confirmation ID.",
+  "line11w10-0xC004C008": "Go back to the activation window, click <strong>Enter confirmation ID</strong> and enter the ID you received.",
+  "line12w10-0xC004C008": "Restart your computer to update the license.",
 
 
 
   "line1w11-0xC004C008": "How to fix error 0xC004C008 - Windows 11",
-  "line2w11-0xC004C008": "If error 0xC004C008 appears, please proceed with phone activation:",
-  "line3w11-0xC004C008": "Type <strong>\"SLUI.exe 04\"</strong> into the Windows taskbar.",
-  "line4w11-0xC004C008": "Select your country, then click <strong>Next step</strong>.",
-  "line5w11-0xC004C008": "You will see the Installation ID (e.g. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
-  "line6w11-0xC004C008": "Call the toll-free number and you will be given a Confirmation ID to activate your Windows.",
-  "line7w11-0xC004C008": "If you do not want to call the toll-free number, or if their lines are busy, you can send us a screenshot of the Installation ID and we will contact them on your behalf to obtain the Confirmation ID for you.",
+  "line2w11-0xC004C008": "If error 0xC004C008 appears, activate Windows by phone following the steps below:",
+  "line3w11-0xC004C008": "Type <strong>Activation</strong> into the Windows search bar.",
+  "line4w11-0xC004C008": "Click the <strong>Automated Help</strong> button on the page.",
+  "line5w11-0xC004C008": "Select a region.",
+  "line6w11-0xC004C008": "Go to <a href=\"https://cid.ms-installation-guide.com/\" target=\"_blank\">cid.ms-installation-guide.com</a> and enter the Installation ID copied from the page opened earlier.",
+  "line7w11-0xC004C008": "Click <strong>Get confirmation ID</strong> to obtain the Confirmation ID.",
+  "line8w11-0xC004C008": "Go back to the activation page, click <strong>Enter confirmation ID</strong> and enter the ID you received.",
+  "line9w11-0xC004C008": "Restart your computer to update the license.",
 
 
 
@@ -240,6 +258,7 @@
 "pas4AdobeAcrobat2019":"4. If the system requests permission, click “Yes” to continue.",
 "pas5AdobeAcrobat2019":"5. Enter the activation key you received with the product.",
 "pas6AdobeAcrobat2019":"6. Follow the on-screen instructions and wait for the installation to complete (this may take a few minutes).",
+"pas7AdobeAcrobat2019": "7. After installation, open Adobe Acrobat Pro DC from the Start menu or the desktop icon.",
 
 "infoInstalareAdobe2020":"If you do not already have Adobe Acrobat 2020 installed, we recommend downloading and installing it first from here: ",
 "pas1AdobeAcrobat2020":"1. Visit the provided download link and save the file to your computer.",

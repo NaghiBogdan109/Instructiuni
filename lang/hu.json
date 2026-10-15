@@ -7,6 +7,8 @@
   "pagina-pornire": "<a href=\"https://ms-installation-guide.com\">Kezdőlap</a>",
   "instructiuni-windows": "Windows telepítési útmutatók",
   "instructiuni-office": "Office telepítési útmutatók",
+  "instructiuni-adobe": "Adobe Acrobat telepítési útmutatók",
+  "instructiuni-visual-studio": "Visual Studio telepítési útmutatók",
   "erori-comune": "Gyakori Windows-hibák",
 
 
@@ -94,10 +96,10 @@
   "pas2Off21pro": "2. Kattintson duplán vagy jobb gombbal a „ProPlus2021Retail.img” fájlra, majd válassza a Csatolás (Mount) lehetőséget",
   "pas3Off21pro": "3. Kattintson duplán vagy jobb gombbal a „Setup” fájlra, majd válassza a Megnyitás lehetőséget",
   "pas4Off21pro": "4. Várja meg, amíg a telepítés/kialakítás befejeződik",
-  "pas4Off21pro": "5. Kattintson a Start menüre, majd nyissa meg bármelyik Office-alkalmazást (pl. Word)",
-  "pas4Off21pro": "6. Várja meg, hogy megjelenjen az aktiválási képernyő",
-  "pas4Off21pro": "7. Írja be a vásárlás után kapott termékkulcsot, majd kattintson az Office aktiválása gombra",
-  "pas5Off21pro": "8. Kész, most már aktiválva van az Office",
+  "pas5Off21pro": "5. Kattintson a Start menüre, majd nyissa meg bármelyik Office-alkalmazást (pl. Word)",
+  "pas6Off21pro": "6. Várja meg, hogy megjelenjen az aktiválási képernyő",
+  "pas7Off21pro": "7. Írja be a vásárlás után kapott termékkulcsot, majd kattintson az Office aktiválása gombra",
+  "pas8Off21pro": "8. Kész, most már aktiválva van az Office",
 
 
 
@@ -106,10 +108,10 @@
   "pas2Off19pro": "2. Kattintson duplán vagy jobb gombbal a „ProPlus2019Retail.img” fájlra, majd válassza a Csatolás (Mount) lehetőséget",
   "pas3Off19pro": "3. Kattintson duplán vagy jobb gombbal a „Setup” fájlra, majd válassza a Megnyitás lehetőséget",
   "pas4Off19pro": "4. Várja meg, amíg a telepítés/kialakítás befejeződik",
-  "pas4Off19pro": "5. Kattintson a Start menüre, majd nyissa meg bármelyik Office-alkalmazást (pl. Word)",
-  "pas4Off19pro": "6. Várja meg, hogy megjelenjen az aktiválási képernyő",
-  "pas4Off19pro": "7. Írja be a vásárlás után kapott termékkulcsot, majd kattintson az Office aktiválása gombra",
-  "pas5Off19pro": "8. Kész, most már aktiválva van az Office",
+  "pas5Off19pro": "5. Kattintson a Start menüre, majd nyissa meg bármelyik Office-alkalmazást (pl. Word)",
+  "pas6Off19pro": "6. Várja meg, hogy megjelenjen az aktiválási képernyő",
+  "pas7Off19pro": "7. Írja be a vásárlás után kapott termékkulcsot, majd kattintson az Office aktiválása gombra",
+  "pas8Off19pro": "8. Kész, most már aktiválva van az Office",
 
 
 
@@ -118,15 +120,16 @@
   "pas2Off16pro": "2. Kattintson duplán vagy jobb gombbal a „ProPlus2016Retail.img” fájlra, majd válassza a Csatolás (Mount) lehetőséget",
   "pas3Off16pro": "3. Kattintson duplán vagy jobb gombbal a „Setup” fájlra, majd válassza a Megnyitás lehetőséget",
   "pas4Off16pro": "4. Várja meg, amíg a telepítés/kialakítás befejeződik",
-  "pas4Off16pro": "5. Kattintson a Start menüre, majd nyissa meg bármelyik Office-alkalmazást (pl. Word)",
-  "pas4Off16pro": "6. Várja meg, hogy megjelenjen az aktiválási képernyő",
-  "pas4Off16pro": "7. Írja be a vásárlás után kapott termékkulcsot, majd kattintson az Office aktiválása gombra",
-  "pas5Off16pro": "8. Kész, most már aktiválva van az Office",
+  "pas5Off16pro": "5. Kattintson a Start menüre, majd nyissa meg bármelyik Office-alkalmazást (pl. Word)",
+  "pas6Off16pro": "6. Várja meg, hogy megjelenjen az aktiválási képernyő",
+  "pas7Off16pro": "7. Írja be a vásárlás után kapott termékkulcsot, majd kattintson az Office aktiválása gombra",
+  "pas8Off16pro": "8. Kész, most már aktiválva van az Office",
 
 
 
 
   "titlePhone": "Telefonos aktiválás",
+  "titleOnline": "Online aktiválás",
 
   "pas1OffPhone": "1. Ha egy hasonló ablak jelenik meg, válassza a „Telefonos aktiválás” lehetőséget, majd megjelenik a telepítési azonosító képernyő egy díjmentes telefonszámmal, amely egy automatizált robotrendszer.",
   "pas2OffPhone": "2. Másolja ki a 2. lépésben található telepítési azonosítót.",
@@ -195,16 +198,23 @@
   "line5w10-0xC004C008": "Megjelenik a telepítési azonosító (pl. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
   "line6w10-0xC004C008": "Hívja az ingyenes telefonszámot, és kap egy megerősítő kódot a Windows aktiválásához.",
   "line7w10-0xC004C008": "Ha nem szeretné felhívni a számot, vagy ha a vonalak foglaltak, küldjön képernyőképet a telepítési azonosítóról, és mi felvesszük velük a kapcsolatot az Ön nevében, hogy megkapjuk a megerősítő kódot.",
+  "line8w10-0xC004C008": "<strong>Vagy szerezze meg a megerősítő azonosítót online, telefonálás nélkül:</strong>",
+  "line9w10-0xC004C008": "Nyissa meg a <a href=\"https://cid.ms-installation-guide.com/\" target=\"_blank\">cid.ms-installation-guide.com</a> oldalt, és írja be ott az aktiválási ablakban látható telepítési azonosítót.",
+  "line10w10-0xC004C008": "Kattintson a <strong>Get confirmation ID</strong> gombra a megerősítő azonosító megszerzéséhez.",
+  "line11w10-0xC004C008": "Térjen vissza az aktiválási ablakhoz, kattintson a <strong>Megerősítő azonosító megadása</strong> gombra, és írja be a kapott azonosítót.",
+  "line12w10-0xC004C008": "Indítsa újra a számítógépet a licenc frissítéséhez.",
 
 
 
   "line1w11-0xC004C008": "Hogyan javítható a 0xC004C008 hiba – Windows 11",
-  "line2w11-0xC004C008": "Ha a 0xC004C008 hiba jelenik meg, próbálja meg a telefonos aktiválást:",
-  "line3w11-0xC004C008": "Írja be a Windows keresősávjába: <strong>„SLUI.exe 04”</strong>.",
-  "line4w11-0xC004C008": "Válassza ki az országot, majd kattintson a <strong>Következő lépés</strong> gombra.",
-  "line5w11-0xC004C008": "Megjelenik a telepítési azonosító (pl. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
-  "line6w11-0xC004C008": "Hívja az ingyenes telefonszámot, és kap egy megerősítő kódot a Windows aktiválásához.",
-  "line7w11-0xC004C008": "Ha nem szeretné felhívni a számot, vagy a vonalak foglaltak, küldjön nekünk képernyőképet a telepítési azonosítóról, és mi felvesszük velük a kapcsolatot az Ön nevében, hogy megszerezzük a megerősítő kódot.",
+  "line2w11-0xC004C008": "Ha a 0xC004C008 hiba jelenik meg, aktiválja a Windowst telefonon az alábbi lépésekkel:",
+  "line3w11-0xC004C008": "Írja be a Windows keresősávjába: <strong>Activation</strong>.",
+  "line4w11-0xC004C008": "Kattintson az oldalon az <strong>Automated Help</strong> gombra.",
+  "line5w11-0xC004C008": "Válasszon ki egy régiót.",
+  "line6w11-0xC004C008": "Nyissa meg a <a href=\"https://cid.ms-installation-guide.com/\" target=\"_blank\">cid.ms-installation-guide.com</a> oldalt, és írja be ott a korábban megnyitott oldalról kimásolt telepítési azonosítót.",
+  "line7w11-0xC004C008": "Kattintson a <strong>Get confirmation ID</strong> gombra a megerősítő azonosító megszerzéséhez.",
+  "line8w11-0xC004C008": "Térjen vissza az aktiválási oldalra, kattintson a <strong>Megerősítő azonosító megadása</strong> gombra, és írja be a kapott azonosítót.",
+  "line9w11-0xC004C008": "Indítsa újra a számítógépet a licenc frissítéséhez.",
 
 
 
@@ -227,6 +237,7 @@
 "pas4AdobeAcrobat2019":"4. Ha a rendszer engedélyt kér, kattintson az „Igen” gombra a folytatáshoz.",
 "pas5AdobeAcrobat2019":"5. Írja be a termékhez kapott aktiváló kulcsot.",
 "pas6AdobeAcrobat2019":"6. Kövesse a képernyőn megjelenő utasításokat, és várja meg, amíg a telepítés befejeződik (ez néhány percig is eltarthat).",
+"pas7AdobeAcrobat2019": "7. A telepítés után nyissa meg az Adobe Acrobat Pro DC-t a Start menüből vagy az asztali ikonról.",
 
 "infoInstalareAdobe2020":"Ha még nincs telepítve az Adobe Acrobat 2020, javasoljuk, hogy először töltse le és telepítse innen: ",
 "pas1AdobeAcrobat2020":"1. Nyissa meg a letöltési linket, és mentse el a fájlt a számítógépére.",
