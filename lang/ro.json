@@ -302,12 +302,14 @@
   "titleOnline": "Activare Online",
 
   
-  "pas7OffPhone":"7.In unele cazuri daca produsul nu sa activat, va fi nevoie sa apasati pe butonul de Troubleshoot, iar dupa sa dati un restart la calculator."
-
-
-
-  
-
-
-
+  "pas7OffPhone":"7.In unele cazuri daca produsul nu sa activat, va fi nevoie sa apasati pe butonul de Troubleshoot, iar dupa sa dati un restart la calculator.",
+  "infoInstalareVS2026":"Dacă nu aveți deja instalat Visual Studio 2026 Pro, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:",
+  "linkVS2026":"Descărcare Visual Studio 2026 Pro",
+  "pas1VS2026":"1. Accesați link-ul de descărcare furnizat și salvați fișierul pe calculatorul dumneavoastră.",
+  "pas2VS2026":"2. Localizați fișierul descărcat, de obicei în folderul „Descărcări” / „Downloads”.",
+  "pas3VS2026":"3. Faceți dublu click pe fișierul „VisualStudioSetup.exe” pentru a începe instalarea.",
+  "pas4VS2026":"4. Dacă vi se solicită permisiune de către sistem, apăsați „Da” pentru a continua.",
+  "pas5VS2026":"5. Introduceți cheia de activare primită împreună cu produsul.",
+  "pas6VS2026":"6. Urmați pașii indicați pe ecran și așteptați ca instalarea să se finalizeze (poate dura câteva minute).",
+  "pas7VS2026":"7. După instalare, deschideți Visual Studio 2026 Pro din meniul Start sau din pictograma creată pe desktop."
 }

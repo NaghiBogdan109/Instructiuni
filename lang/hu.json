@@ -280,7 +280,14 @@
   "pas6.1OffOff365": "Az Office most már aktiválva van és használatra kész.",
 
 
-  "pas7OffPhone":"7. Bizonyos esetekben, ha a termék nem aktiválódott, meg kell nyomnia a Troubleshoot gombot, majd újra kell indítania a számítógépet."
-  
-
+  "pas7OffPhone":"7. Bizonyos esetekben, ha a termék nem aktiválódott, meg kell nyomnia a Troubleshoot gombot, majd újra kell indítania a számítógépet.",
+  "infoInstalareVS2026":"Ha még nincs telepítve a Visual Studio 2026 Pro, javasoljuk, hogy először töltse le és telepítse innen:",
+  "linkVS2026":"Visual Studio 2026 Pro letöltése",
+  "pas1VS2026":"1. Nyissa meg a letöltési linket, és mentse el a fájlt a számítógépére.",
+  "pas2VS2026":"2. Keresse meg a letöltött fájlt, általában a „Letöltések” mappában található.",
+  "pas3VS2026":"3. Kattintson duplán a „VisualStudioSetup.exe” fájlra a telepítés elindításához.",
+  "pas4VS2026":"4. Ha a rendszer engedélyt kér, kattintson az „Igen” gombra a folytatáshoz.",
+  "pas5VS2026":"5. Írja be a termékhez kapott aktiváló kulcsot.",
+  "pas6VS2026":"6. Kövesse a képernyőn megjelenő utasításokat, és várja meg, amíg a telepítés befejeződik (ez néhány percig is eltarthat).",
+  "pas7VS2026":"7. A telepítés után nyissa meg a Visual Studio 2026 Pro-t a Start menüből vagy az asztali ikonról."
 }
