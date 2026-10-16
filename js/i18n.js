@@ -12,8 +12,8 @@ function setLanguage(lang) {
   const pathName = window.location.pathname; 
   let jsonPath = "../lang";
 
-  // Dacă URL-ul conține "/windows/" sau "/office/", ajustăm calea
-  if (pathName.includes("/windows/") || pathName.includes("/office/") || pathName.includes("/adobe/") || pathName.includes("/visual-studio/")) {
+  // Paginile din subfolderele lui /html/ stau cu doua niveluri mai jos
+  if (/\/html\/[^/]+\/[^/]*$/.test(pathName)) {
     jsonPath = "../../lang";
   }
 

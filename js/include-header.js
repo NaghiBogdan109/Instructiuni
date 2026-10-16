@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
   let headerPath = "header.html";
   let i18nPath   = "js/i18n.js";
 
-  // 2) Dacă ești în /html/windows/ sau /html/office/, mergi două niveluri în sus
-  if (pathName.includes("/html/windows/") || pathName.includes("/html/office/") || pathName.includes("/html/adobe/") || pathName.includes("/html/visual-studio/")) {
+  // 2) Dacă ești într-un subfolder din /html/ (windows, office, autodesk...), mergi două niveluri în sus
+  if (/\/html\/[^/]+\/[^/]*$/.test(pathName)) {
     headerPath = "../../header.html";
     i18nPath   = "../../js/i18n.js";
   }

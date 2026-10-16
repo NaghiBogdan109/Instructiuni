@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono&display=swap" />
+  <meta name="description" content="Activați Windows Server 2016, 2019, 2022 sau 2025 Standard ori Datacenter cu slmgr, inclusiv conversia din versiunea de evaluare." />
+  <title>Windows Server 2016–2025: instalare și activare | MS Installation Guide</title>
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+  <!-- Include header -->
+  <div id="header-include"></div>
+  <hr />
+
+<div class="page-title">
+    <h1 data-i18n="srv-titlu">Windows Server 2016 – 2025</h1>
+</div>
+
+<div class="info-instalare">
+  <p><span data-i18n="srv-info1">Ghidul este valabil pentru Windows Server 2016, 2019, 2022 și 2025, edițiile Standard și Datacenter. Cheia trebuie să fie pentru aceeași versiune și ediție ca cea instalată.</span></p>
+  <ul class="descarcari">
+    <li><strong>Windows Server 2025</strong><a href="https://go.microsoft.com/fwlink/?linkid=2345730&amp;clcid=0x409&amp;culture=en-us&amp;country=us" target="_blank">ISO (English)</a><a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025" target="_blank">Evaluation Center</a></li>
+    <li><strong>Windows Server 2022</strong><a href="https://go.microsoft.com/fwlink/p/?LinkID=2195280&amp;clcid=0x409&amp;culture=en-us&amp;country=US" target="_blank">ISO (English)</a><a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022" target="_blank">Evaluation Center</a></li>
+    <li><strong>Windows Server 2019</strong><a href="https://go.microsoft.com/fwlink/p/?LinkID=2195167&amp;clcid=0x409&amp;culture=en-us&amp;country=US" target="_blank">ISO (English)</a><a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019" target="_blank">Evaluation Center</a></li>
+    <li><strong>Windows Server 2016</strong><a href="https://go.microsoft.com/fwlink/p/?LinkID=2195174&amp;clcid=0x409&amp;culture=en-us&amp;country=US" target="_blank">ISO (English)</a><a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016" target="_blank">Evaluation Center</a></li>
+  </ul>
+</div>
+
+<div class="info-instalare">
+  <p><span data-i18n="srv-info2">Kiturile de mai sus sunt versiunile de evaluare oficiale Microsoft. La instalare alegeți ediția cheii (Standard sau Datacenter, cu Desktop Experience), apoi convertiți-o cu cheia, ca în secțiunea „Conversie din versiunea de evaluare”.</span></p>
+</div>
+
+<div class="page-title section-title">
+    <h1 data-i18n="srv-sectiune1">Activare cu cheia de produs</h1>
+</div>
+
+<div class="continut-instructiuni">
+  <div class="pas">
+    <p data-i18n="srv-b1-pas1">1. Deschideți <strong>Command Prompt</strong> ca administrator (clic dreapta pe Start → <strong>Command Prompt (Admin)</strong> / <strong>Terminal (Admin)</strong>).</p>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="srv-b1-pas2">2. Verificați ediția instalată. Dacă în rezultat apare <strong>Evaluation</strong>, urmați întâi secțiunea „Conversie din versiunea de evaluare” de mai jos.</p>
+    <pre>DISM /online /Get-CurrentEdition</pre>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="srv-b1-pas3">3. Introduceți cheia de produs (înlocuiți X-urile cu cheia primită):</p>
+    <pre>slmgr /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX</pre>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="srv-b1-pas4">4. Activați online:</p>
+    <pre>slmgr /ato</pre>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="srv-b1-pas5">5. Verificați starea licenței. La „License Status” trebuie să apară <strong>Licensed</strong>.</p>
+    <pre>slmgr /dlv</pre>
+  </div>
+</div>
+
+<div class="page-title section-title">
+    <h1 data-i18n="srv-sectiune2">Conversie din versiunea de evaluare</h1>
+</div>
+
+<div class="continut-instructiuni">
+  <div class="pas">
+    <p data-i18n="srv-b2-pas1">1. Versiunea de evaluare nu acceptă direct o cheie de produs. Vedeți în ce ediții poate fi convertită:</p>
+    <pre>DISM /online /Get-TargetEditions</pre>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="srv-b2-pas2">2. Rulați conversia cu cheia primită. Folosiți <code>ServerStandard</code> sau <code>ServerDatacenter</code>, după ediția cheii:</p>
+    <pre>DISM /online /Set-Edition:ServerDatacenter /ProductKey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /AcceptEula</pre>
+    <p class="nota" data-i18n="srv-b2-pas2-nota">Versiunea de evaluare Datacenter se poate converti doar în Datacenter; versiunea de evaluare Standard se poate converti în Standard sau Datacenter.</p>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="srv-b2-pas3">3. Reporniți serverul când vi se cere (poate reporni de două ori). Apoi activați cu <code>slmgr /ato</code>, ca în secțiunea de mai sus.</p>
+  </div>
+</div>
+
+<div class="page-title section-title">
+    <h1 data-i18n="srv-sectiune3">Activare Telefonică</h1>
+</div>
+
+<div class="continut-instructiuni">
+  <div class="pas">
+    <p data-i18n="srv-b3-pas1">1. Dacă <code>slmgr /ato</code> returnează o eroare, afișați ID-ul de instalare:</p>
+    <pre>slmgr /dti</pre>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="srv-b3-pas2">2. Accesați site-ul de mai jos și introduceți ID-ul de instalare afișat în fereastra deschisă de comandă.</p>
+    <a class="btn-cid" href="https://cid.ms-installation-guide.com/" target="_blank">GetCID</a>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="srv-b3-pas3">3. Apăsați pe <strong>Get confirmation ID</strong> pentru a obține ID-ul de confirmare.</p>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="srv-b3-pas4">4. Introduceți ID-ul de confirmare primit (fără spații sau cratime):</p>
+    <pre>slmgr /atp ID_DE_CONFIRMARE</pre>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="srv-b3-pas5">5. Verificați cu <code>slmgr /dlv</code> că starea este <strong>Licensed</strong>. Serverul este activat.</p>
+  </div>
+</div>
+
+  <script src="../../js/include-header.js"></script>
+</body>
+</html>

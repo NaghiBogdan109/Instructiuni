@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono&display=swap" />
+  <meta name="description" content="Cum instalați licențele RDS CAL per utilizator sau per dispozitiv în Remote Desktop Licensing Manager, pentru Windows Server 2008 R2–2025." />
+  <title>Licențe RDS CAL: instalare pe Windows Server | MS Installation Guide</title>
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+  <!-- Include header -->
+  <div id="header-include"></div>
+  <hr />
+
+<div class="page-title">
+    <h1 data-i18n="rds-titlu">Windows Server RDS CAL</h1>
+</div>
+
+<div class="info-instalare">
+  <p><span data-i18n="rds-info1">Ghidul este valabil pentru licențele RDS CAL (per utilizator sau per dispozitiv) pentru Windows Server 2008 R2 – 2025. Versiunea licențelor trebuie să fie aceeași sau mai nouă decât versiunea Windows Server pe care rulează serviciile Remote Desktop.</span></p>
+</div>
+
+<div class="page-title section-title">
+    <h1 data-i18n="rds-sectiune1">Instalarea licențelor</h1>
+</div>
+
+<div class="continut-instructiuni">
+  <div class="pas">
+    <p data-i18n="rds-b1-pas1">1. Asigurați-vă că serverul are instalat rolul <strong>Remote Desktop Services</strong> cu serviciul <strong>Remote Desktop Licensing</strong> (Server Manager → Add Roles and Features).</p>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="rds-b1-pas2">2. Deschideți <strong>Server Manager → Tools → Remote Desktop Services → Remote Desktop Licensing Manager</strong>.</p>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="rds-b1-pas3">3. Dacă serverul de licențe apare ca neactivat, faceți clic dreapta pe numele lui → <strong>Activate Server</strong> și urmați asistentul, cu metoda de conectare <strong>Automatic connection</strong>.</p>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="rds-b1-pas4">4. Faceți clic dreapta pe numele serverului → <strong>Install Licenses</strong> → <strong>Next</strong>.</p>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="rds-b1-pas5">5. La „License program” alegeți <strong>Retail purchase</strong> și apăsați <strong>Next</strong>.</p>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="rds-b1-pas6">6. Introduceți codul de licență primit (25 de caractere), apăsați <strong>Add</strong>, apoi <strong>Next</strong> și <strong>Finish</strong>. Licențele apar în listă, cu numărul de utilizatori sau dispozitive.</p>
+  </div>
+</div>
+
+<div class="page-title section-title">
+    <h1 data-i18n="rds-sectiune2">Setarea modului de licențiere</h1>
+</div>
+
+<div class="continut-instructiuni">
+  <div class="pas">
+    <p data-i18n="rds-b2-pas1">1. Deschideți <strong>Server Manager → Remote Desktop Services → Overview</strong> → <strong>Tasks → Edit Deployment Properties</strong> → <strong>RD Licensing</strong>.</p>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="rds-b2-pas2">2. Alegeți modul care corespunde licențelor: <strong>Per User</strong> pentru licențe per utilizator sau <strong>Per Device</strong> pentru licențe per dispozitiv. Adăugați serverul de licențe și apăsați <strong>OK</strong>.</p>
+    <p class="nota" data-i18n="rds-b2-pas2-nota">Fără un deployment RDS, aceleași setări se fac din Group Policy: Computer Configuration → Administrative Templates → Windows Components → Remote Desktop Services → Remote Desktop Session Host → Licensing.</p>
+  </div>
+
+  <div class="pas">
+    <p data-i18n="rds-b2-pas3">3. Verificați configurarea din <strong>Tools → Remote Desktop Services → RD Licensing Diagnoser</strong>. Dacă nu apar avertismente, licențele sunt active.</p>
+  </div>
+</div>
+
+  <script src="../../js/include-header.js"></script>
+</body>
+</html>
