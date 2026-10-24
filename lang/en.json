@@ -1,6 +1,6 @@
 {
   "headerTitle": "This is the header",
-  "mainText": "Welcome to the website! Here you will find...",
+  "mainText": "Welcome! Here you will find step-by-step guides for installing and activating your products.",
   "pictureOne": "A full-width picture linking to another page on the site",
   "pictureTwo": "A second picture linking to another page on the site",
 
@@ -100,8 +100,8 @@
   "infoInstalareOff21pro": "If you don't already have Office 2021 Professional Plus installed, we recommend downloading and installing it first from here:",
 
   "pas1Off21pro": "1. Download the Office installer from the link above",
-  "pas2Off21pro": "2. Double click or right click the “ProPlus2021Retail.img” file, then click Mount",
-  "pas3Off21pro": "3. Double click or right click the “Setup” file, then click Open",
+  "pas2Off21pro": "2. Double-click or right-click the “ProPlus2021Retail.img” file, then click Mount",
+  "pas3Off21pro": "3. Double-click or right-click the “Setup” file, then click Open",
   "pas4Off21pro": "4. Wait for the installation/configuration to finish",
   "pas5Off21pro": "5. Click Start and open any Office application (for example, Word)",
   "pas6Off21pro": "6. Wait for the activation screen to appear",
@@ -114,8 +114,8 @@
   "infoInstalareOff19pro": "If you don't already have Office 2019 Professional Plus installed, we recommend downloading and installing it first from here:",
 
   "pas1Off19pro": "1. Download the Office installer from the link above",
-  "pas2Off19pro": "2. Double click or right click the “ProPlus2019Retail.img” file, then click Mount",
-  "pas3Off19pro": "3. Double click or right click the “Setup” file, then click Open",
+  "pas2Off19pro": "2. Double-click or right-click the “ProPlus2019Retail.img” file, then click Mount",
+  "pas3Off19pro": "3. Double-click or right-click the “Setup” file, then click Open",
   "pas4Off19pro": "4. Wait for the installation/configuration to finish",
   "pas5Off19pro": "5. Click Start and open any Office application (for example, Word)",
   "pas6Off19pro": "6. Wait for the activation screen to appear",
@@ -128,8 +128,8 @@
   "infoInstalareOff16pro": "If you don't already have Office 2016 Professional Plus installed, we recommend downloading and installing it first from here:",
 
   "pas1Off16pro": "1. Download the Office installer from the link above",
-  "pas2Off16pro": "2. Double click or right click the “ProPlus2016Retail.img” file, then click Mount",
-  "pas3Off16pro": "3. Double click or right click the “Setup” file, then click Open",
+  "pas2Off16pro": "2. Double-click or right-click the “ProPlusRetail.img” file, then click Mount",
+  "pas3Off16pro": "3. Double-click or right-click the “Setup” file, then click Open",
   "pas4Off16pro": "4. Wait for the installation/configuration to finish",
   "pas5Off16pro": "5. Click Start and open any Office application (for example, Word)",
   "pas6Off16pro": "6. Wait for the activation screen to appear",
@@ -143,7 +143,7 @@
   "titlePhone": "Phone Activation",
 
   "pas1OffPhone": "1. If a similar window appears, select \"Activate by phone\", then you will be shown the Installation ID screen with a toll-free phone number, which is an automated robotic system.",
-  "pas2OffPhone": "2. Copy the Installation ID from step 2.",
+  "pas2OffPhone": "2. Copy the Installation ID shown at step 2 of the activation window.",
   "pas3OffPhone": "3. Access the website from this link:",
   "pas4OffPhone": "4. Enter the previously copied Installation ID in the highlighted section.",
   "pas5OffPhone": "5. Click on \"Get confirmation ID\".",
@@ -159,34 +159,34 @@
 
 
   "line1w10-0xc004f050": "How to fix error 0xc004f050 - Windows 10",
-  "line2w10-0xc004f050": "<strong>Error 0xc004f050</strong> appears if you try to upgrade from one edition to another or use the product key on a different edition. Therefore, first make sure you have Windows 10 Professional installed, then continue with activation.",
-  "line3w10-0xc004f050": "<strong>You can download and install Windows 10 Pro</strong> for free from the official Microsoft download page:",
+  "line2w10-0xc004f050": "<strong>Error 0xc004f050</strong> appears if you try to upgrade from one edition to another or use the product key on a different edition. The key only works on the edition it was issued for, so first make sure you have the same edition as your key installed (Windows 10 Home or Windows 10 Pro), then continue with activation.",
+  "line3w10-0xc004f050": "<strong>You can download and install Windows 10 (Home or Pro)</strong> for free from the official Microsoft download page:",
   "line4w10-0xc004f050": "https://www.microsoft.com/en-us/software-download/windows10",
   "line5w10-0xc004f050": "<strong>How to perform a clean install:</strong>",
   "line6w10-0xc004f050": "https://www.howtogeek.com/224342/how-to-clean-install-windows-10/",
-  "line7w10-0xc004f050": "After installing Windows 10 Professional, follow these steps:",
+  "line7w10-0xc004f050": "After installing the edition that matches your key, follow these steps:",
   "line8w10-0xc004f050": "Go to Settings",
   "line9w10-0xc004f050": "Select Update & Security",
   "line10w10-0xc004f050": "Go to Activation",
   "line11w10-0xc004f050": "Click Activate or Change Product Key",
   "line12w10-0xc004f050": "Enter the license key you received after purchase",
   "line13w10-0xc004f050": "Done, your Windows is now fully activated",
-  "line14w10-0xc004f050": "<strong>If you don't want to do a clean install, follow this video tutorial to upgrade from Windows 10 Home to Pro, then use your product key:</strong>",
+  "line14w10-0xc004f050": "<strong>If you have a Pro key, Windows 10 Home is installed and you don't want to do a clean install, follow this video tutorial to upgrade from Windows 10 Home to Pro, then use your product key:</strong>",
   "line15w10-0xc004f050": "Follow this video tutorial:",
   "line16w10-0xc004f050": "https://www.youtube.com/watch?v=F_jGe1kRBZo&feature=youtu.be",
   "line17w10-0xc004f050": "Then activate Windows with your product key",
-  "line18w10-0xc004f050": "<strong>Note:</strong> This solution is only valid if you have Windows 10 Home. If you encounter any error during the upgrade process, a fresh install is required.",
+  "line18w10-0xc004f050": "<strong>Note:</strong> This solution only applies to a Pro key on Windows 10 Home. If you have a Home key and Windows 10 Pro is installed, or if you encounter any error during the upgrade process, a clean install of your key's edition is required.",
 
 
 
 
   "line1w11-0xc004f050": "How to fix error 0xc004f050 - Windows 11",
-  "line2w11-0xc004f050": "<strong>Error 0xC004F050</strong> can occur if you have the wrong edition of Windows installed, so please check and confirm which edition you have, because this product key is for the standard Windows 11 Pro edition.",
+  "line2w11-0xc004f050": "<strong>Error 0xC004F050</strong> can occur if the installed edition of Windows is different from the edition of your key. The key only works on the edition it was issued for (Windows 11 Home or Windows 11 Pro), so please check which edition you have installed.",
   "line3w11-0xc004f050": "<strong>To check your Windows edition:</strong>",
   "line4w11-0xc004f050": "Type 'About your PC' in the Windows search bar.",
   "line5w11-0xc004f050": "Scroll down to find the 'Windows Specifications' label.",
   "line6w11-0xc004f050": "Check what is written next to 'Edition'.",
-  "line7w11-0xc004f050": "<strong>How to fix error 0xC004F050</strong> if you have standard Windows 11 Home:",
+  "line7w11-0xc004f050": "<strong>How to fix error 0xC004F050</strong> if you have a Pro key and standard Windows 11 Home is installed:",
   "line8w11-0xc004f050": "Type 'Check for updates' in the Windows search bar.",
   "line9w11-0xc004f050": "Download and install all updates.",
   "line10w11-0xc004f050": "Disconnect your device from the internet.",
@@ -195,7 +195,7 @@
   "line13w11-0xc004f050": "After the upgrade completes, enter the product key you received after purchase to activate.",
   "line14w11-0xc004f050": "If after restarting nothing changed, re-enter your product key and it should work.",
   "line15w11-0xc004f050": "<strong>Note:</strong> Ignore any error that appears when entering the key while disconnected from the internet.",
-  "line16w11-0xc004f050": "<strong>If you have other installed editions</strong> such as Windows 11 Pro N, Windows 11 Home Single Language, Windows 11 Enterprise, or others, you will need to do a clean installation:",
+  "line16w11-0xc004f050": "<strong>If you have a Home key and Windows 11 Pro is installed,</strong> or if you have other editions installed, such as Windows 11 Pro N, Windows 11 Home Single Language, Windows 11 Enterprise, or others, you will need to do a clean installation of your key's edition:",
   "line17w11-0xc004f050": "<strong>Windows 11 download link:</strong>",
   "line18w11-0xc004f050": "<strong>Clean Installation Guide (Text):</strong>",
   "line19w11-0xc004f050": "<strong>Clean Installation Guide (Video):</strong>",
@@ -214,7 +214,7 @@
   "line4w10-0xC004C008": "Select your country, then click <strong>Next step</strong>.",
   "line5w10-0xC004C008": "You will see the Installation ID (e.g. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
   "line6w10-0xC004C008": "Call the toll-free number and you will be given a Confirmation ID to activate your Windows.",
-  "line7w10-0xC004C008": "If you do not want to call the toll-free number, or if their lines are busy, you can send us a screenshot of the Installation ID and we will contact them on your behalf to obtain the Confirmation ID for you.",
+  "line7w10-0xC004C008": "If you do not want to call the toll-free number, or if their lines are busy, you can send us a screenshot of the Installation ID and we will contact them on your behalf to obtain the Confirmation ID for you. Contact address: <a href=\"mailto:support@ms-installation-guide.com\">support@ms-installation-guide.com</a>",
   "line8w10-0xC004C008": "<strong>Or get the Confirmation ID online, without calling:</strong>",
   "line9w10-0xC004C008": "Go to <a href=\"https://cid.ms-installation-guide.com/\" target=\"_blank\">cid.ms-installation-guide.com</a> and enter the Installation ID shown in the activation window.",
   "line10w10-0xC004C008": "Click <strong>Get confirmation ID</strong> to obtain the Confirmation ID.",
@@ -251,23 +251,23 @@
 
 
 
-  "infoInstalareAdobe2019":"If you do not already have Adobe Acrobat 2019 installed, we recommend downloading and installing it first from here:",
+  "infoInstalareAdobe2019":"If you do not already have Adobe Acrobat 2019 Pro DC installed, we recommend downloading and installing it first from here:",
 "pas1AdobeAcrobat2019":"1. Visit the provided download link and save the file to your computer.",
 "pas2AdobeAcrobat2019":"2. Locate the downloaded file, usually in the “Downloads” folder.",
 "pas3AdobeAcrobat2019":"3. Double-click on “setup.exe” to begin the installation",
 "pas4AdobeAcrobat2019":"4. If the system requests permission, click “Yes” to continue.",
 "pas5AdobeAcrobat2019":"5. Enter the activation key you received with the product.",
 "pas6AdobeAcrobat2019":"6. Follow the on-screen instructions and wait for the installation to complete (this may take a few minutes).",
-"pas7AdobeAcrobat2019": "7. After installation, open Adobe Acrobat Pro DC from the Start menu or the desktop icon.",
+"pas7AdobeAcrobat2019": "7. After installation, open Adobe Acrobat 2019 Pro DC from the Start menu or the desktop icon.",
 
-"infoInstalareAdobe2020":"If you do not already have Adobe Acrobat 2020 installed, we recommend downloading and installing it first from here: ",
+"infoInstalareAdobe2020":"If you do not already have Adobe Acrobat 2020 Pro DC installed, we recommend downloading and installing it first from here: ",
 "pas1AdobeAcrobat2020":"1. Visit the provided download link and save the file to your computer.",
 "pas2AdobeAcrobat2020":"2. Extract the ZIP file (right-click → “Extract here”). ",
 "pas3AdobeAcrobat2020":"3. Double-click on “setup.exe” to begin the installation ",
 "pas4AdobeAcrobat2020":"4. If the system requests permission, click “Yes” to continue. ",
 "pas5AdobeAcrobat2020":"5. Follow the on-screen instructions to complete the installation process. ",
 "pas6AdobeAcrobat2020":"6. After installation, enter the activation key received at purchase into the appropriate fields in the program. ",
-"pas7AdobeAcrobat2020":"7. After installation, open Adobe Acrobat Pro DC from the Start menu or the desktop icon. ",
+"pas7AdobeAcrobat2020":"7. After installation, open Adobe Acrobat 2020 Pro DC from the Start menu or the desktop icon. ",
 
 
 
@@ -278,7 +278,7 @@
   "pas1OffOff365": "1. Log in to the Microsoft platform using the link above",
 
   "pas2OffOff365": "Enter the provided account",
-  "pas2.1OffOff365": "In “Email / Username”, enter the email address from the “Login details” section below.",
+  "pas2.1OffOff365": "In “Email / Username”, enter the email address from the “Login details” section.",
 
   "pas3OffOff365": "Change the password",
   "pas3.1OffOff365": "At the first login, you will be asked to set a new password.",
@@ -287,7 +287,7 @@
 
   "pas4OffOff365": "Download and install Office 365",
   "pas4.1OffOff365": "After logging in, look for the “Install apps” button in the top right corner.",
-  "pas4.2OffOff365": "Choose the desired application (Word, Excel, PowerPoint, etc.) and download the installer.",
+  "pas4.2OffOff365": "Choose the desired application and download the installer.",
   "pas4.3OffOff365": "Open the downloaded file and follow the installation steps until completion.",
 
   "pas5OffOff365": "Activate Office on your PC",
@@ -322,7 +322,7 @@
   "w7-b2-pas2":"2. Select your country and click <strong>Next</strong>. The Installation ID (9 groups of digits) appears on the screen.",
   "w7-b2-pas3":"3. Open the site below and enter the Installation ID shown in the activation window.",
   "w7-b2-pas4":"4. Click <strong>Get confirmation ID</strong> to obtain the Confirmation ID.",
-  "w7-b2-pas5":"5. Click <strong>Enter confirmation ID</strong>, type the ID you received and click <strong>Activate</strong>.",
+  "w7-b2-pas5":"5. Type the confirmation ID you received into the fields below the installation ID and click <strong>Next</strong>.",
   "w7-b2-pas6":"6. Restart your computer. Windows 7 is activated.",
   "w7-titlu":"Windows 7",
   "w8-info1":"This guide applies to Windows 8, Windows 8 Pro, Windows 8.1 and Windows 8.1 Pro. The key must match the installed edition (Pro or non-Pro).",

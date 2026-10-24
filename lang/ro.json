@@ -1,6 +1,6 @@
 {
   "headerTitle": "Acesta este header-ul",
-  "mainText": "Bine ai venit pe site! Aici vei găsi...",
+  "mainText": "Bine ați venit! Aici găsiți ghiduri pas cu pas pentru instalarea și activarea produselor.",
   "pictureOne": "O poză cât tot chenarul care duce la un alt link de pe site",
   "pictureTwo": "A doua poză care duce la un alt link de pe site",
 
@@ -88,10 +88,10 @@
   "infoInstalareOff24pro": "Dacă nu aveți deja instalat Office 2024 Professional Plus, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:",
 
   "pas1Off24pro": "1. Descărcați fișierul de instalare Office din link-ul de mai sus",
-  "pas2Off24pro": "2. Deschideti fisierul (.rar) descarcat, dupa faceti dublu click pe fisierul (.exe)",
-  "pas3Off24pro": "3. Lasati setarile automate pentru destinatia folderului si apasati install",
-  "pas4Off24pro": "4. Asteptati ca instalarea sa se termine.",
-  "pas5Off24pro": "5. Deschideti orice aplicatie Office",
+  "pas2Off24pro": "2. Deschideți fișierul descărcat (.rar), apoi faceți dublu clic pe fișierul (.exe).",
+  "pas3Off24pro": "3. Lăsați setările implicite pentru folderul de destinație și apăsați Install.",
+  "pas4Off24pro": "4. Așteptați ca instalarea să se termine.",
+  "pas5Off24pro": "5. Deschideți orice aplicație Office.",
   "pas6Off24pro": "6. Așteptați ecranul de activare care va apărea automat.",
   "pas7Off24pro": "7. Introduceți cheia de produs pe care ați primit-o după achiziție, apoi faceți clic pe Activare Office",
 
@@ -108,7 +108,7 @@
   "pas5Off21pro": "5. Faceți clic pe Start și deschideți orice aplicație Office (de exemplu, deschideți Word)",
   "pas6Off21pro": "6. Așteptați să apară ecranul de activare",
   "pas7Off21pro": "7. Introduceți cheia de produs pe care ați primit-o după achiziție, apoi faceți clic pe Activare Office",
-  "pas8Off21pro": "8. Gata acum aveti Office-ul activat",
+  "pas8Off21pro": "8. Gata, acum aveți Office-ul activat.",
 
 
 
@@ -122,7 +122,7 @@
   "pas5Off19pro": "5. Faceți clic pe Start și deschideți orice aplicație Office (de exemplu, deschideți Word)",
   "pas6Off19pro": "6. Așteptați să apară ecranul de activare",
   "pas7Off19pro": "7. Introduceți cheia de produs pe care ați primit-o după achiziție, apoi faceți clic pe Activare Office",
-  "pas8Off19pro": "8. Gata acum aveti Office-ul activat",
+  "pas8Off19pro": "8. Gata, acum aveți Office-ul activat.",
 
 
 
@@ -130,25 +130,25 @@
   "infoInstalareOff16pro": "Dacă nu aveți deja instalat Office 2016 Professional Plus, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:",
 
   "pas1Off16pro": "1. Descărcați fișierul de instalare Office de pe linkul de mai sus",
-  "pas2Off16pro": "2. Faceți dublu clic sau clic dreapta pe fișierul „ProPlus2016Retail.img”, apoi faceți clic pe Montare",
+  "pas2Off16pro": "2. Faceți dublu clic sau clic dreapta pe fișierul „ProPlusRetail.img”, apoi faceți clic pe Montare",
   "pas3Off16pro": "3. Faceți dublu clic sau clic dreapta pe fișierul „Setup”, apoi faceți clic pe Deschidere",
   "pas4Off16pro": "4. Așteptați finalizarea instalării/configurării",
   "pas5Off16pro": "5. Faceți clic pe Start și deschideți orice aplicație Office (de exemplu, deschideți Word)",
   "pas6Off16pro": "6. Așteptați să apară ecranul de activare",
   "pas7Off16pro": "7. Introduceți cheia de produs pe care ați primit-o după achiziție, apoi faceți clic pe Activare Office",
-  "pas8Off16pro": "8. Gata acum aveti Office-ul activat",
+  "pas8Off16pro": "8. Gata, acum aveți Office-ul activat.",
 
 
 
   
-  "titlePhone":"Activare Telefonica",
+  "titlePhone":"Activare Telefonică",
   
-  "pas1OffPhone": "1. Daca va apare o fereastră asemanatoare trebuie să selectați „Activați prin telefon” și apoi vă va afișa ecranul ID de instalare cu un număr de telefon gratuit care este un sistem robot automat",
-  "pas2OffPhone": "2.Copiati ID-ul de instalare de pa pasul 2.",
-  "pas3OffPhone": "3.Accesati situl din linkul acesta:",
-  "pas4OffPhone": "4.Introduceti ID-ul de instalare copiat anterior in sectiunea hasurata.",
-  "pas5OffPhone": "5.Apsati pe Get confirmation ID.",
-  "pas6OffPhone": "6.Gata acuma instroduceti ID-ul primit in fereastra de activare telefonica, iar produsul se va activa.",
+  "pas1OffPhone": "1. Dacă apare o fereastră asemănătoare, selectați „Activați prin telefon”. Se va afișa ecranul cu ID-ul de instalare și un număr de telefon gratuit, deservit de un sistem automat.",
+  "pas2OffPhone": "2. Copiați ID-ul de instalare afișat la pasul 2 din fereastra de activare.",
+  "pas3OffPhone": "3. Accesați site-ul de la linkul acesta:",
+  "pas4OffPhone": "4. Introduceți ID-ul de instalare copiat anterior în secțiunea hașurată.",
+  "pas5OffPhone": "5. Apăsați pe Get confirmation ID.",
+  "pas6OffPhone": "6. Introduceți ID-ul de confirmare primit în fereastra de activare telefonică, iar produsul se va activa.",
 
 
 
@@ -157,35 +157,35 @@
 
 
 
-  "line1w10-0xc004f050": "Cum să rezolvi eroarea 0xc004f050 - Windows 10",
-  "line2w10-0xc004f050": "<strong>Eroarea 0xc004f050</strong> apare dacă încercați să faceți upgrade de la o ediție la alta sau utilizați cheia de produs pe o ediție diferită. Așadar, mai întâi asigurați-vă că aveți instalat Windows 10 Professional, apoi continuați cu activarea.",
-  "line3w10-0xc004f050": "<strong>Puteți descărca și instala Windows 10 Pro</strong> gratuit de pe pagina oficială de descărcare Microsoft:",
+  "line1w10-0xc004f050": "Cum rezolvați eroarea 0xc004f050 - Windows 10",
+  "line2w10-0xc004f050": "<strong>Eroarea 0xc004f050</strong> apare dacă încercați să faceți upgrade de la o ediție la alta sau utilizați cheia de produs pe o ediție diferită. Cheia funcționează doar pe ediția pentru care a fost emisă, așa că mai întâi asigurați-vă că aveți instalată aceeași ediție ca a cheii (Windows 10 Home sau Windows 10 Pro), apoi continuați cu activarea.",
+  "line3w10-0xc004f050": "<strong>Puteți descărca și instala Windows 10 (Home sau Pro)</strong> gratuit de pe pagina oficială de descărcare Microsoft:",
   "line4w10-0xc004f050": "https://www.microsoft.com/en-us/software-download/windows10",
   "line5w10-0xc004f050": "<strong>Cum să efectuați o instalare curată:</strong>",
   "line6w10-0xc004f050": "https://www.howtogeek.com/224342/how-to-clean-install-windows-10/",
-  "line7w10-0xc004f050": "După instalarea Windows 10 Professional, urmați pașii de mai jos:",
+  "line7w10-0xc004f050": "După instalarea ediției care corespunde cheii, urmați pașii de mai jos:",
   "line8w10-0xc004f050": "Mergeți la Setări",
   "line9w10-0xc004f050": "Selectați Actualizare și securitate",
   "line10w10-0xc004f050": "Mergeți la Activare",
   "line11w10-0xc004f050": "Faceți clic pe Activați sau Schimbați cheia de produs",
   "line12w10-0xc004f050": "Introduceți cheia de licență primită după achiziție",
   "line13w10-0xc004f050": "Gata, Windows-ul dvs. este acum complet activat",
-  "line14w10-0xc004f050": "<strong>Dacă nu doriți să faceți o instalare curată, urmați acest tutorial video pentru a face upgrade de la Windows 10 Home la Pro și apoi folosiți cheia dvs. de produs:</strong>",
+  "line14w10-0xc004f050": "<strong>Dacă aveți o cheie Pro, iar pe calculator este instalat Windows 10 Home, și nu doriți să faceți o instalare curată, urmați acest tutorial video pentru a face upgrade de la Windows 10 Home la Pro și apoi folosiți cheia dvs. de produs:</strong>",
   "line15w10-0xc004f050": "Urmați acest tutorial video:",
   "line16w10-0xc004f050": "https://www.youtube.com/watch?v=F_jGe1kRBZo&feature=youtu.be",
   "line17w10-0xc004f050": "Apoi activați Windows-ul cu cheia dvs. de produs",
-  "line18w10-0xc004f050": "<strong>Notă:</strong> Această soluție este valabilă doar dacă aveți Windows 10 Home. Dacă întâmpinați vreo eroare în timpul procesului de upgrade, atunci este necesară o instalare nouă.",
+  "line18w10-0xc004f050": "<strong>Notă:</strong> Această soluție este valabilă doar pentru o cheie Pro pe Windows 10 Home. Dacă aveți o cheie Home și este instalat Windows 10 Pro, sau dacă întâmpinați vreo eroare în timpul procesului de upgrade, este necesară o instalare curată a ediției cheii.",
 
 
 
 
-  "line1w11-0xc004f050": "Cum să rezolvi eroarea 0xc004f050 - Windows 11",
-  "line2w11-0xc004f050": "<strong>Eroarea 0xC004F050</strong> poate apărea dacă aveți instalată o ediție greșită de Windows, așa că vă rugăm să verificați și să confirmați ce ediție aveți instalată, deoarece această cheie de produs este pentru ediția standard Windows 11 Pro.",
+  "line1w11-0xc004f050": "Cum rezolvați eroarea 0xc004f050 - Windows 11",
+  "line2w11-0xc004f050": "<strong>Eroarea 0xC004F050</strong> poate apărea dacă aveți instalată o altă ediție de Windows decât cea a cheii. Cheia funcționează doar pe ediția pentru care a fost emisă (Windows 11 Home sau Windows 11 Pro), așa că vă rugăm să verificați ce ediție aveți instalată.",
   "line3w11-0xc004f050": "<strong>Pentru a verifica ediția Windows:</strong>",
   "line4w11-0xc004f050": "Tastați 'Despre PC-ul dvs.' în bara de căutare Windows.",
   "line5w11-0xc004f050": "Derulați în jos și găsiți eticheta 'Specificații Windows'.",
   "line6w11-0xc004f050": "Verificați ce este scris în fața titlului 'Ediție'.",
-  "line7w11-0xc004f050": "<strong>Cum să remediați eroarea 0xC004F050</strong> dacă aveți ediția standard Windows 11 Home:",
+  "line7w11-0xc004f050": "<strong>Cum să remediați eroarea 0xC004F050</strong> dacă aveți o cheie Pro, iar pe calculator este instalată ediția standard Windows 11 Home:",
   "line8w11-0xc004f050": "Tastați 'Verificare actualizări' în bara de căutare Windows.",
   "line9w11-0xc004f050": "Descărcați și instalați toate actualizările.",
   "line10w11-0xc004f050": "Deconectați dispozitivul de la internet.",
@@ -194,7 +194,7 @@
   "line13w11-0xc004f050": "După finalizarea upgrade-ului, introduceți cheia de produs pe care ați primit-o după achiziție pentru activare.",
   "line14w11-0xc004f050": "Dacă după repornire nu s-a schimbat nimic, introduceți din nou cheia de produs și ar trebui să funcționeze.",
   "line15w11-0xc004f050": "<strong>Notă:</strong> ignorați orice eroare care apare atunci când introduceți cheia în timp ce sunteți deconectat de la internet.",
-  "line16w11-0xc004f050": "<strong>Dacă aveți alte ediții instalate,</strong> cum ar fi Windows 11 Pro N, Windows 11 Home Single Language, Windows 11 Enterprise sau altele, va trebui să faceți o instalare curată:",
+  "line16w11-0xc004f050": "<strong>Dacă aveți o cheie Home și este instalat Windows 11 Pro,</strong> sau dacă aveți alte ediții instalate, cum ar fi Windows 11 Pro N, Windows 11 Home Single Language, Windows 11 Enterprise sau altele, va trebui să faceți o instalare curată a ediției cheii:",
   "line17w11-0xc004f050": "<strong>Link de descărcare Windows 11:</strong>",
   "line18w11-0xc004f050": "<strong>Ghid pentru Instalare Curată (Text):</strong>",
   "line19w11-0xc004f050": "<strong>Ghid pentru Instalare Curată (Video):</strong>",
@@ -208,13 +208,13 @@
 
 
   
-  "line1w10-0xC004C008": "Cum să rezolvi eroarea 0xC004C008 - Windows 10",
+  "line1w10-0xC004C008": "Cum rezolvați eroarea 0xC004C008 - Windows 10",
   "line2w10-0xC004C008": "Dacă apare eroarea 0xC004C008, vă rugăm să continuați cu procesul de activare prin telefon:",
   "line3w10-0xC004C008": "Tastați <strong>\"SLUI.exe 04\"</strong> în bara de activități Windows.",
   "line4w10-0xC004C008": "Selectați țara dvs., apoi faceți clic pe <strong>Următorul pas</strong>.",
   "line5w10-0xC004C008": "Veți vedea ID-ul de instalare (ex. <a href=\"https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd\" target=\"_blank\">https://gyazo.com/dbe19b631a2d034d3c17a6514e3e87cd</a>).",
   "line6w10-0xC004C008": "Sunați la numărul gratuit și vi se va furniza ID-ul de confirmare pentru activarea Windows-ului dvs.",
-  "line7w10-0xC004C008": "Dacă nu doriți să contactați numărul gratuit sau dacă serviciile lor sunt ocupate, ne puteți trimite o captură de ecran cu ID-ul de instalare și noi îi vom contacta în numele dvs. și vă vom furniza ID-ul de confirmare.",
+  "line7w10-0xC004C008": "Dacă nu doriți să contactați numărul gratuit sau dacă serviciile lor sunt ocupate, ne puteți trimite o captură de ecran cu ID-ul de instalare și noi îi vom contacta în numele dvs. și vă vom furniza ID-ul de confirmare. Adresa de contact: <a href=\"mailto:support@ms-installation-guide.com\">support@ms-installation-guide.com</a>",
   "line8w10-0xC004C008": "<strong>Sau obțineți ID-ul de confirmare online, fără să sunați:</strong>",
   "line9w10-0xC004C008": "Accesați site-ul <a href=\"https://cid.ms-installation-guide.com/\" target=\"_blank\">cid.ms-installation-guide.com</a> și introduceți acolo ID-ul de instalare afișat în fereastra de activare.",
   "line10w10-0xC004C008": "Apăsați pe <strong>Get confirmation ID</strong> pentru a obține ID-ul de confirmare.",
@@ -223,9 +223,9 @@
 
 
 
-  "line1w11-0xC004C008": "Cum să rezolvi eroarea 0xC004C008 - Windows 11",
+  "line1w11-0xC004C008": "Cum rezolvați eroarea 0xC004C008 - Windows 11",
   "line2w11-0xC004C008": "Dacă apare eroarea 0xC004C008, activați Windows prin telefon urmând pașii de mai jos:",
-  "line3w11-0xC004C008": "Căutați în bara de căutare Windows: <strong>Activation</strong>.",
+  "line3w11-0xC004C008": "Căutați în bara de căutare Windows: <strong>Activare</strong> (Activation).",
   "line4w11-0xC004C008": "Apăsați pe butonul <strong>Automated Help</strong> de pe pagină.",
   "line5w11-0xC004C008": "Selectați o regiune.",
   "line6w11-0xC004C008": "Accesați site-ul <a href=\"https://cid.ms-installation-guide.com/\" target=\"_blank\">cid.ms-installation-guide.com</a> și introduceți acolo ID-ul de instalare copiat din pagina deschisă anterior.",
@@ -242,7 +242,7 @@
 
   
   
-  "line1w11-0xc0ea000a": "Cum să rezolvi eroarea 0xc0ea000a - Windows 11",
+  "line1w11-0xc0ea000a": "Cum rezolvați eroarea 0xc0ea000a - Windows 11",
   "line2w11-0xc0ea000a": "<strong>Eroarea 0xc0ea000a este legată de sistemul de operare. Pentru a o remedia, puteți urma pașii de mai jos:</strong>",
   "line3w11-0xc0ea000a": "Deschideți Powershell ca administrator.",
   "line4w11-0xc0ea000a": "Introduceți următoarea comandă: <code>slmgr -ipk Cheia dvs. de produs aici</code>",
@@ -251,24 +251,24 @@
 
 
 
-  "infoInstalareAdobe2019":"Dacă nu aveți deja instalat Adobe Acrobat 2019, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:",
+  "infoInstalareAdobe2019":"Dacă nu aveți deja instalat Adobe Acrobat 2019 Pro DC, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:",
   "pas1AdobeAcrobat2019":"1. Accesați link-ul de descărcare furnizat și salvați fișierul pe calculatorul dumneavoastră.",
   "pas2AdobeAcrobat2019":"2. Localizați fișierul descărcat, de obicei în folderul „Descărcări” / „Downloads”.",
   "pas3AdobeAcrobat2019":"3. Faceți dublu click pe „setup.exe” pentru a începe instalarea",
   "pas4AdobeAcrobat2019":"4. Dacă vi se solicită permisiune de către sistem, apăsați „Da” pentru a continua.",
   "pas5AdobeAcrobat2019":"5. Introduceți cheia de activare primită împreună cu produsul.",
   "pas6AdobeAcrobat2019":"6. Urmați pașii indicați pe ecran și așteptați ca instalarea să se finalizeze (poate dura câteva minute).",
-  "pas7AdobeAcrobat2019": "7. După instalare, deschideți Adobe Acrobat Pro DC din meniul Start sau din pictograma creată pe desktop.",
+  "pas7AdobeAcrobat2019": "7. După instalare, deschideți Adobe Acrobat 2019 Pro DC din meniul Start sau din pictograma creată pe desktop.",
 
 
-   "infoInstalareAdobe2020":"Dacă nu aveți deja instalat Adobe Acrobat 2020, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici: ",
+   "infoInstalareAdobe2020":"Dacă nu aveți deja instalat Adobe Acrobat 2020 Pro DC, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici: ",
    "pas1AdobeAcrobat2020":"1. Accesați link-ul de descărcare furnizat și salvați fișierul pe calculatorul dumneavoastră.",
    "pas2AdobeAcrobat2020":"2. Extrageți fișierul ZIP (click dreapta → „Extrage aici”). ",
    "pas3AdobeAcrobat2020":"3. Faceți dublu click pe „setup.exe” pentru a începe instalarea ",
    "pas4AdobeAcrobat2020":"4. Dacă vi se solicită permisiune de către sistem, apăsați „Da” pentru a continua. ",
    "pas5AdobeAcrobat2020":"5. Urmați instrucțiunile de pe ecran pentru a finaliza procesul de instalare. ",
    "pas6AdobeAcrobat2020":"6. După instalare, introduceți cheia de activare primită la cumpărare în spațiile corespunzătoare din program. ",
-   "pas7AdobeAcrobat2020":"7. După instalare, deschideți Adobe Acrobat Pro DC din meniul Start sau din pictograma creată pe desktop. ",
+   "pas7AdobeAcrobat2020":"7. După instalare, deschideți Adobe Acrobat 2020 Pro DC din meniul Start sau din pictograma creată pe desktop. ",
   
   
   
@@ -280,7 +280,7 @@
   "pas1OffOff365": "1. Conectați-vă la platforma Microsoft de pe linkul de mai sus",
 
   "pas2OffOff365": "Introduceți contul primit",
-  "pas2.1OffOff365": "În „Email / Nume utilizator” introduceți adresa de e-mail din secțiunea „Detalii de conectare” de mai jos.",
+  "pas2.1OffOff365": "În „Email / Nume utilizator” introduceți adresa de e-mail din secțiunea „Detalii de conectare”.",
 
   "pas3OffOff365": "Schimbați parola",
   "pas3.1OffOff365": "La prima conectare, vi se va solicita să setați o parolă nouă.",
@@ -289,7 +289,7 @@
 
   "pas4OffOff365": "Descărcați și instalați Office 365",
   "pas4.1OffOff365": "După autentificare, căutați butonul „Instalare aplicații” din colțul din dreapta sus.",
-  "pas4.2OffOff365": "Alegeți aplicația dorită (Word, Excel, PowerPoint etc.) și descărcați fișierul de instalare.",
+  "pas4.2OffOff365": "Alegeți aplicația dorită și descărcați fișierul de instalare.",
   "pas4.3OffOff365": "Deschideți fișierul descărcat și urmați pașii de instalare până la final.",
 
   "pas5OffOff365": "Activați Office pe PC",
@@ -302,7 +302,7 @@
   "titleOnline": "Activare Online",
 
   
-  "pas7OffPhone":"7.In unele cazuri daca produsul nu sa activat, va fi nevoie sa apasati pe butonul de Troubleshoot, iar dupa sa dati un restart la calculator.",
+  "pas7OffPhone":"7. În unele cazuri, dacă produsul nu s-a activat, va trebui să apăsați butonul Depanare (Troubleshoot), apoi să reporniți calculatorul.",
   "infoInstalareVS2026":"Dacă nu aveți deja instalat Visual Studio 2026 Pro, vă recomandăm să îl descărcați și să îl instalați mai întâi de aici:",
   "linkVS2026":"Descărcare Visual Studio 2026 Pro",
   "pas1VS2026":"1. Accesați link-ul de descărcare furnizat și salvați fișierul pe calculatorul dumneavoastră.",
@@ -323,7 +323,7 @@
   "w7-b2-pas2":"2. Selectați țara și apăsați <strong>Următorul</strong>. Pe ecran apare ID-ul de instalare (9 grupuri de cifre).",
   "w7-b2-pas3":"3. Accesați site-ul de mai jos și introduceți ID-ul de instalare afișat în fereastra de activare.",
   "w7-b2-pas4":"4. Apăsați pe <strong>Get confirmation ID</strong> pentru a obține ID-ul de confirmare.",
-  "w7-b2-pas5":"5. Apăsați pe <strong>Introduceți ID-ul de confirmare</strong>, completați ID-ul primit și apăsați <strong>Activare</strong>.",
+  "w7-b2-pas5":"5. Introduceți ID-ul de confirmare primit în câmpurile de sub ID-ul de instalare și apăsați <strong>Următorul</strong>.",
   "w7-b2-pas6":"6. Reporniți calculatorul. Windows 7 este activat.",
   "w7-titlu":"Windows 7",
   "w8-info1":"Ghidul este valabil pentru Windows 8, Windows 8 Pro, Windows 8.1 și Windows 8.1 Pro. Cheia trebuie să fie pentru aceeași ediție ca cea instalată (Pro sau fără Pro).",
